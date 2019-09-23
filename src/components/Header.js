@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import config from '../../config';
 import Scroll from './Scroll';
+import icon48 from '/Users/ramonterry/Desktop/pennybank-landing/public/icons/icon-48x48.png'
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -36,12 +37,13 @@ export default class Header extends Component {
     const { openMenu, visibilityClass } = this.state;
     return (
       <nav
-        className={`navbar navbar-expand-lg navbar-light fixed-top ${visibilityClass}`}
+        className={`navbar navbar-expand-lg fixed-top ${visibilityClass}`}
         id="mainNav"
       >
         <div className="container">
           <a className="navbar-brand" href="#page-top">
-            {config.siteTitle}
+            <img src={icon48} alt="logo" />
+            {config.siteTitle}  
           </a>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
@@ -53,8 +55,7 @@ export default class Header extends Component {
             aria-expanded={openMenu}
             aria-label="Toggle navigation"
           >
-            Menu
-            <i className="fas fa-bars"></i>
+            <i className="fas fa-bars fa-2x"></i>
           </button>
 
           <div

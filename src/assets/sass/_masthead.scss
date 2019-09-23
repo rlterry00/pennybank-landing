@@ -1,15 +1,15 @@
 // Styling for the masthead
 header.masthead {
   position: relative;
-
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-
+  background-position-y: 100px;
   color: black;
   background-image: url('../images/michael-longmire-RhBVoJnRqVg-unsplash.jpg');
   background-size: contain;
   background-repeat: no-repeat;
+  
   // background: url('../images/bg-pattern.png'), $theme-secondary;
   // background: url('../images/bg-pattern.png'),
   //   -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
@@ -17,7 +17,7 @@ header.masthead {
   //   linear-gradient(to left, $theme-secondary, $theme-tertiary);
   .header-content {
     max-width: 500px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 
     text-align: center;
     h1 {
@@ -38,6 +38,7 @@ header.masthead {
     min-height: 775px;
     padding-top: 0;
     padding-bottom: 0;
+    background-position-y: 0px;
     .header-content {
       margin-bottom: 0;
 

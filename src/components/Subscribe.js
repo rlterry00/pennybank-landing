@@ -68,7 +68,8 @@ export default class Subscribe extends React.Component {
                     <h3>Thank you! Youʼll receive your conformation email shortly.</h3>
                 ) : (
                         <div >
-                            <h3>Subscribe below to be notified of the app release!</h3>
+                            <h3>Subscribe below to be notified of app releases,
+                                educational and investment opportunites!</h3>
                             <form
                                 id="email-capture"
                                 method="post"

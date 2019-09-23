@@ -24,7 +24,7 @@ const IndexPage = () => (
                 finance!
               </h1>
               <Scroll type="id" element="download">
-                <a href="#download" className="btn btn-warning btn-xl">
+                <a href="#download" className="btn bg-primary btn-xl">
                   Learn More!
                 </a>
               </Scroll>
@@ -144,7 +144,7 @@ const IndexPage = () => (
             Start Today.
           </h2>
           <Scroll type="id" element="contact">
-            <a href="#contact" className="btn btn-warning btn-xl">
+            <a href="#contact" className="btn bg-primary btn-xl">
               Let's Get Started!
             </a>
           </Scroll>
@@ -163,6 +163,8 @@ const IndexPage = () => (
         <Social />
         {/* <div className='row'> */}
         {/* <div className='col-4'></div> */}
+        <hr />
+        <br></br>
         <div className="contactForm">
           <h3>
             <i className="fas fa-phone"></i>

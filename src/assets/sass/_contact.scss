@@ -1,6 +1,12 @@
 // Styling for the download section
 section.contact {
     text-align: center;
+    hr {
+        max-width: 250px;
+        margin: 25px auto 0;
+        border-width: 2px;
+        border-color: black;
+    }
     .contactForm {
         margin-left: 0px;
         margin-right: 0px;
