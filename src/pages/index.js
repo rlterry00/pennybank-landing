@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import Layout from '../components/Layout';
-import Header from '../components/Header';
-import Scroll from '../components/Scroll';
-import Footer from '../components/Footer';
-import Social from '../components/Social';
-import Subscribe from '../components/Subscribe';
+import Layout from "../components/Layout";
+import Header from "../components/Header";
+import Scroll from "../components/Scroll";
+import Footer from "../components/Footer";
+import Social from "../components/Social";
+import Subscribe from "../components/Subscribe";
 
-import cSoon from '../assets/images/coming_soon.png';
-import mockup from '../assets/images/pennymock.png';
+import cSoon from "../assets/images/coming_soon.png";
+import mockup from "../assets/images/pennymock.png";
 
 const IndexPage = () => (
   <Layout>
@@ -86,11 +86,11 @@ const IndexPage = () => (
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i class="fas fa-wallet"></i>
-                    <h3>Mobile Wallet</h3>
+                    <h3>Promissory Wallet</h3>
                     <p className="text-muted">
-                      The future of the debit card will be digital. Give your
-                      kids the power to make their own purchases with their
-                      mobile devices! Fully monitored by the parent.
+                      Give your children the sense of accomplishment with a
+                      visual wallet. Allow your children to develop the
+                      relationship of accountability with a Promissory Wallet.
                     </p>
                   </div>
                 </div>

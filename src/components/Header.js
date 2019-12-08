@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import config from '../../config';
 import Scroll from './Scroll';
-import icon48 from '/Users/ramonterry/Desktop/pennybank-landing/public/icons/icon-48x48.png'
+import icon48 from '../../public/icons/icon-48x48.png';
 export default class Header extends Component {
   constructor(props) {
     super(props);
