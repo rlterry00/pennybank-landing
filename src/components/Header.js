@@ -43,7 +43,7 @@ export default class Header extends Component {
         <div className="container">
           <a className="navbar-brand" href="#page-top">
             <img src={icon48} alt="logo" />
-            {config.siteTitle}  
+            {/* {config.siteTitle}   */}
           </a>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}

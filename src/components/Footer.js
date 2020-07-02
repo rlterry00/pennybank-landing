@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="container">
-            <p>&copy; The Blacklight Group 2019. All Rights Reserved.</p>
+            <p>&copy; The Blacklight Group 2020. All Rights Reserved.</p>
             <img src={blight} alt="" className='blight' />
             {/* <ul className="list-inline">
           <li className="list-inline-item">

@@ -1,14 +1,14 @@
 var plugins = [{
-      plugin: require('/Users/alfnewton/Desktop/pennybank-landing/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/Users/ramonterry/Desktop/pennybank-landing/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-148947018-1"},
     },{
-      plugin: require('/Users/alfnewton/Desktop/pennybank-landing/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/ramonterry/Desktop/pennybank-landing/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/alfnewton/Desktop/pennybank-landing/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Penny Bank","short_name":"Landing","start_url":"/pennybank-landing/","background_color":"#663399","theme_color":"#663399","display":"standalone","icon":"src/assets/images/pennybanknew.png"},
+      plugin: require('/Users/ramonterry/Desktop/pennybank-landing/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"Penny Bank","short_name":"Landing","start_url":"/pennybank-landing/","background_color":"#663399","theme_color":"#663399","display":"standalone","icon":"src/assets/images/Pennybank_logo_Fill.png"},
     },{
-      plugin: require('/Users/alfnewton/Desktop/pennybank-landing/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/Users/ramonterry/Desktop/pennybank-landing/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

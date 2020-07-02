@@ -8,7 +8,7 @@ import Social from "../components/Social";
 import Subscribe from "../components/Subscribe";
 
 import cSoon from "../assets/images/coming_soon.png";
-import mockup from "../assets/images/pennymock.png";
+import mockup from "../assets/images/homescreen.png";
 
 const IndexPage = () => (
   <Layout>
@@ -17,11 +17,16 @@ const IndexPage = () => (
     <header className="masthead">
       <div className="container h-100">
         <div className="row h-100">
+          <div className="col-lg-5 my-auto">
+            <img
+              src={require("../assets/images/splash_reflective.png")}
+              style={{ height: "100%", width: "100%" }}
+            />
+          </div>
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
               <h1 className="mb-5">
-                Teaching kids responsibility and goal orientation through
-                finance!
+                Productivity that inspires kids to be actively engaged in deciscion making!
               </h1>
               <Scroll type="id" element="download">
                 <a href="#download" className="btn bg-primary btn-xl">
@@ -30,7 +35,6 @@ const IndexPage = () => (
               </Scroll>
             </div>
           </div>
-          <div className="col-lg-5 my-auto"></div>
         </div>
       </div>
     </header>
@@ -39,10 +43,9 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-8 mx-auto">
-            <h2 className="section-heading">The Mobile App is Coming Soon!</h2>
+            <h2 className="section-heading">The Penny Bank App is Coming Soon!</h2>
             <p>
-              Soon your kid's financial future will be in the palm of their
-              hands!
+              Soon the Penny Bank app can help shape your kid's finance and habits!
             </p>
             <div className="badges">
               <a className="badge-link" href="/#">
@@ -86,11 +89,10 @@ const IndexPage = () => (
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i class="fas fa-wallet"></i>
-                    <h3>Promissory Wallet</h3>
+                    <h3>Child Management</h3>
                     <p className="text-muted">
-                      Give your children the sense of accomplishment with a
-                      visual wallet. Allow your children to develop the
-                      relationship of accountability with a Promissory Wallet.
+                      You are the bank! Give your children the sense of accomplishment with a
+                      visual wallet. You have the ability to delegate cash and time.
                     </p>
                   </div>
                 </div>
@@ -185,7 +187,7 @@ const IndexPage = () => (
                   type="text"
                   name="name"
                   id="full-name"
-                  placeholder="First and Last"
+                  
                   required=""
                   className="form-control"
                 />
@@ -194,7 +196,7 @@ const IndexPage = () => (
                   type="email"
                   name="_replyto"
                   id="email-address"
-                  placeholder="email@domain.tld"
+                  
                   required=""
                   className="form-control"
                 />
@@ -203,7 +205,6 @@ const IndexPage = () => (
                   rows="5"
                   name="message"
                   id="message"
-                  placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
                   required=""
                   className="form-control"
                 ></textarea>
