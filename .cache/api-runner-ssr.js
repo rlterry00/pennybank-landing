@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/ramonterry/Desktop/pennybank-landing/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Penny Bank","short_name":"Landing","start_url":"/pennybank-landing/","background_color":"#663399","theme_color":"#663399","display":"standalone","icon":"src/assets/images/Pennybank_logo_Fill.png"},
+      options: {"plugins":[],"name":"Penny Bank","short_name":"Landing","start_url":"/pennybank-landing/","background_color":"#F6E775","theme_color":"#F6E775","display":"standalone","icon":"src/assets/images/Pennybank_logo_Fill.png"},
     },{
       plugin: require('/Users/ramonterry/Desktop/pennybank-landing/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},

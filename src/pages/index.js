@@ -1,4 +1,6 @@
 import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 import Layout from "../components/Layout";
 import Header from "../components/Header";
@@ -26,7 +28,8 @@ const IndexPage = () => (
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
               <h1 className="mb-5">
-                Productivity that inspires kids to be actively engaged in deciscion making!
+                Productivity that inspires kids to be actively engaged in
+                deciscion making!
               </h1>
               <Scroll type="id" element="download">
                 <a href="#download" className="btn bg-primary btn-xl">
@@ -43,9 +46,12 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-8 mx-auto">
-            <h2 className="section-heading">The Penny Bank App is Coming Soon!</h2>
+            <h2 className="section-heading">
+              The Penny Bank App is Coming Soon!
+            </h2>
             <p>
-              Soon the Penny Bank app can help shape your kid's finance and habits!
+              Soon the Penny Bank app can help shape your kid's finance and
+              habits!
             </p>
             <div className="badges">
               <a className="badge-link" href="/#">
@@ -70,70 +76,75 @@ const IndexPage = () => (
           </p>
           <hr />
         </div>
-        <div className="row">
-          <div className="col-lg-4 my-auto">
-            <div className="device-container">
-              {/* <div className="device-mockup iphone6_plus portrait white"> */}
-              <div className="device">
-                <div className="screen">
-                  <img src={mockup} className="img-fluid" alt="" />
-                </div>
-                <div className="button"></div>
-              </div>
-              {/* </div> */}
-            </div>
-          </div>
-          <div className="col-lg-8 my-auto">
-            <div className="container-fluid">
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="feature-item">
-                    <i class="fas fa-wallet"></i>
-                    <h3>Child Management</h3>
-                    <p className="text-muted">
-                      You are the bank! Give your children the sense of accomplishment with a
-                      visual wallet. You have the ability to delegate cash and time.
-                    </p>
+        <Carousel style={{ backgroundColor: "transparent"}}>
+          <div className="row">
+            <div className="col-lg-4 my-auto">
+              <div className="device-container">
+                {/* <div className="device-mockup iphone6_plus portrait white"> */}
+                <div className="device">
+                  <div className="screen">
+                    <img src={mockup} className="img-fluid" alt="" />
                   </div>
+                  <div className="button"></div>
                 </div>
-                <div className="col-lg-6">
-                  <div className="feature-item">
-                    <i class="fas fa-broom"></i>
-                    <h3>Responsibility</h3>
-                    <p className="text-muted">
-                      Assign responsibilies for your child whether it is in or
-                      out of the household. Place monetary or non-monetary value
-                      on your kid's ability to complete their responsibilities.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="feature-item">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Goals</h3>
-                    <p className="text-muted">
-                      Reward your kids for reaching long term goals (e.g.
-                      academic or behavior) in addition to their responsibilies.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="feature-item">
-                    <i className="fas fa-comments-dollar"></i>
-                    <h3>Negotiation</h3>
-                    <p className="text-muted">
-                      Allow your kid to be pro active about their
-                      responsibilies. Kids can make an offer and set their price
-                      for your approval.
-                    </p>
-                  </div>
-                </div>
+                {/* </div> */}
               </div>
             </div>
+            <div className="col-lg-8 my-auto">
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-lg-6">
+                    <div className="feature-item">
+                      <i class="fas fa-wallet"></i>
+                      <h3>Child Management</h3>
+                      <p className="text-muted">
+                        You are the bank! Give your children the sense of
+                        accomplishment with a visual wallet. You have the
+                        ability to delegate cash and time.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6">
+                    <div className="feature-item">
+                      <i class="fas fa-broom"></i>
+                      <h3>Responsibility</h3>
+                      <p className="text-muted">
+                        Assign responsibilies for your child whether it is in or
+                        out of the household. Place monetary or non-monetary
+                        value on your kid's ability to complete their
+                        responsibilities.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-6">
+                    <div className="feature-item">
+                      <i class="fas fa-chart-line"></i>
+                      <h3>Goals</h3>
+                      <p className="text-muted">
+                        Reward your kids for reaching long term goals (e.g.
+                        academic or behavior) in addition to their
+                        responsibilies.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6">
+                    <div className="feature-item">
+                      <i className="fas fa-comments-dollar"></i>
+                      <h3>Negotiation</h3>
+                      <p className="text-muted">
+                        Allow your kid to be pro active about their
+                        responsibilies. Kids can make an offer and set their
+                        price for your approval.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        </Carousel>
       </div>
     </section>
 
@@ -187,7 +198,6 @@ const IndexPage = () => (
                   type="text"
                   name="name"
                   id="full-name"
-                  
                   required=""
                   className="form-control"
                 />
@@ -196,7 +206,6 @@ const IndexPage = () => (
                   type="email"
                   name="_replyto"
                   id="email-address"
-                  
                   required=""
                   className="form-control"
                 />
