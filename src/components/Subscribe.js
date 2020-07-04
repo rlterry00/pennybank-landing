@@ -65,7 +65,7 @@ export default class Subscribe extends React.Component {
             <div>
                 <br></br>
                 {this.state.status === `success` ? (
-                    <h3>Thank you! Youʼll receive your conformation email shortly.</h3>
+                    <h3>Thank you! Youʼll receive your confirmation email shortly.</h3>
                 ) : (
                         <div >
                             <h3>Subscribe below to be notified of app releases,
