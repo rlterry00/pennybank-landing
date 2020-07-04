@@ -11,6 +11,13 @@ import Subscribe from "../components/Subscribe";
 
 import cSoon from "../assets/images/coming_soon.png";
 import mockup from "../assets/images/homescreen.png";
+import mockup1 from "../assets/images/distrubutetime.png";
+import mockup2 from "../assets/images/responsibility.png";
+import mockup3 from "../assets/images/goals.png";
+import mockup4 from "../assets/images/offers.png";
+import mockup5 from "../assets/images/withdrawrequest.png";
+import mockup6 from "../assets/images/lovetap.png";
+import mockup7 from "../assets/images/stats.png";
 
 const IndexPage = () => (
   <Layout>
@@ -55,7 +62,7 @@ const IndexPage = () => (
             </p>
             <div className="badges">
               <a className="badge-link" href="/#">
-                <img src={cSoon} alt="" />
+                <img src={cSoon} alt="Coming Soon" />
               </a>
               {/* <a className="badge-link" href="/#">
                 <img src={astore} alt="" />
@@ -76,14 +83,22 @@ const IndexPage = () => (
           </p>
           <hr />
         </div>
-        <Carousel style={{ backgroundColor: "transparent"}}>
+        <Carousel
+          showArrows={true}
+          autoPlay={true}
+          showStatus={false}
+          infiniteLoop={true}
+          swipeable={true}
+          stopOnHover={true}
+          emulateTouch={true}
+        >
           <div className="row">
             <div className="col-lg-4 my-auto">
               <div className="device-container">
                 {/* <div className="device-mockup iphone6_plus portrait white"> */}
                 <div className="device">
                   <div className="screen">
-                    <img src={mockup} className="img-fluid" alt="" />
+                    <img src={mockup} className="img-fluid" alt="Dashboard" />
                   </div>
                   <div className="button"></div>
                 </div>
@@ -92,7 +107,7 @@ const IndexPage = () => (
             </div>
             <div className="col-lg-8 my-auto">
               <div className="container-fluid">
-                <div className="row">
+                <div className="row" style={{ margin: 5 }}>
                   <div className="col-lg-6">
                     <div className="feature-item">
                       <i class="fas fa-wallet"></i>
@@ -100,46 +115,307 @@ const IndexPage = () => (
                       <p className="text-muted">
                         You are the bank! Give your children the sense of
                         accomplishment with a visual wallet. You have the
-                        ability to delegate cash and time.
+                        ability to delegate cash and time. Penny bank notifies
+                        and tracks when your child checks out their dashboard so
+                        you can monitor their habit of checking for tasks.
                       </p>
                     </div>
                   </div>
+                  <div className="col-lg-6"></div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-6"></div>
+                  <div className="col-lg-6"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 my-auto">
+              <div className="device-container">
+                {/* <div className="device-mockup iphone6_plus portrait white"> */}
+                <div className="device">
+                  <div className="screen">
+                    <img src={mockup1} className="img-fluid" alt="Time Banking" />
+                  </div>
+                  <div className="button"></div>
+                </div>
+                {/* </div> */}
+              </div>
+            </div>
+            <div className="col-lg-8 my-auto">
+              <div className="container-fluid">
+                <div className="row" style={{ margin: 5 }}>
+                  <div className="col-lg-6">
+                    <div className="feature-item">
+                      <i class="fas fa-user-clock"></i>
+                      <h3>Time Banking</h3>
+                      <p className="text-muted">
+                        Penny bank introduces the concept of time banking. Time
+                        is the only asset we all share no matter the age.
+                        Distributing and withdrawing time for things your child
+                        is interest in will feel seemless with in discipline and
+                        rewards system.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6"></div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-6"></div>
+                  <div className="col-lg-6"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 my-auto">
+              <div className="device-container">
+                {/* <div className="device-mockup iphone6_plus portrait white"> */}
+                <div className="device">
+                  <div className="screen">
+                    <img src={mockup2} className="img-fluid" alt="Responsibility" />
+                  </div>
+                  <div className="button"></div>
+                </div>
+                {/* </div> */}
+              </div>
+            </div>
+            <div className="col-lg-8 my-auto">
+              <div className="container-fluid">
+                <div className="row" style={{ margin: 5 }}>
                   <div className="col-lg-6">
                     <div className="feature-item">
                       <i class="fas fa-broom"></i>
-                      <h3>Responsibility</h3>
+                      <h3>Responsibility/</h3>
+                      <h3>Contribution Chart</h3>
                       <p className="text-muted">
-                        Assign responsibilies for your child whether it is in or
-                        out of the household. Place monetary or non-monetary
-                        value on your kid's ability to complete their
-                        responsibilities.
+                        Posted note style cards help your family manage the
+                        responsibilities due. Iphone users get the added feature
+                        of a contribution chart that fills in a visualization
+                        block each day any child in the family completes a
+                        responsibility.
                       </p>
                     </div>
                   </div>
+                  <div className="col-lg-6"></div>
                 </div>
                 <div className="row">
+                  <div className="col-lg-6"></div>
+                  <div className="col-lg-6"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 my-auto">
+              <div className="device-container">
+                {/* <div className="device-mockup iphone6_plus portrait white"> */}
+                <div className="device">
+                  <div className="screen">
+                    <img src={mockup3} className="img-fluid" alt="Goals" />
+                  </div>
+                  <div className="button"></div>
+                </div>
+                {/* </div> */}
+              </div>
+            </div>
+            <div className="col-lg-8 my-auto">
+              <div className="container-fluid">
+                <div className="row" style={{ margin: 5 }}>
                   <div className="col-lg-6">
                     <div className="feature-item">
-                      <i class="fas fa-chart-line"></i>
+                      <i class="fas fa-calendar"></i>
                       <h3>Goals</h3>
                       <p className="text-muted">
-                        Reward your kids for reaching long term goals (e.g.
-                        academic or behavior) in addition to their
-                        responsibilies.
+                        Posted note style cards help your family manage long
+                        term goals for your children. This feature is great for
+                        a goal being acheived of time such as school grades,
+                        behavioral improvements, etc... The embended calendar
+                        gives a visualization of start and ending points of each
+                        goal
                       </p>
                     </div>
                   </div>
+                  <div className="col-lg-6"></div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-6"></div>
+                  <div className="col-lg-6"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 my-auto">
+              <div className="device-container">
+                {/* <div className="device-mockup iphone6_plus portrait white"> */}
+                <div className="device">
+                  <div className="screen">
+                    <img src={mockup4} className="img-fluid" alt="Offers" />
+                  </div>
+                  <div className="button"></div>
+                </div>
+                {/* </div> */}
+              </div>
+            </div>
+            <div className="col-lg-8 my-auto">
+              <div className="container-fluid">
+                <div className="row" style={{ margin: 5 }}>
                   <div className="col-lg-6">
                     <div className="feature-item">
-                      <i className="fas fa-comments-dollar"></i>
-                      <h3>Negotiation</h3>
+                      <i class="fas fa-handshake"></i>
+                      <h3>Offers</h3>
                       <p className="text-muted">
-                        Allow your kid to be pro active about their
-                        responsibilies. Kids can make an offer and set their
-                        price for your approval.
+                        Penny bank gives kids the power of descision making by
+                        giving them the ability to be proactive and make an
+                        offer on how much they want to be paid for a
+                        responsibility. You have to ability to accept or decline
+                        as the parent. This feature helps kids to develop a
+                        habit of providing a value for a value in return!
                       </p>
                     </div>
                   </div>
+                  <div className="col-lg-6"></div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-6"></div>
+                  <div className="col-lg-6"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 my-auto">
+              <div className="device-container">
+                {/* <div className="device-mockup iphone6_plus portrait white"> */}
+                <div className="device">
+                  <div className="screen">
+                    <img src={mockup5} className="img-fluid" alt="Withdraw Request" />
+                  </div>
+                  <div className="button"></div>
+                </div>
+                {/* </div> */}
+              </div>
+            </div>
+            <div className="col-lg-8 my-auto">
+              <div className="container-fluid">
+                <div className="row" style={{ margin: 5 }}>
+                  <div className="col-lg-6">
+                    <div className="feature-item">
+                      <i class="fas fa-money-bill-wave"></i>
+                      <h3>Withdraw Request</h3>
+                      <p className="text-muted">
+                        Manage how your child's request for cash and time with
+                        withdraw request. This allows you to be manage how much
+                        cash or time a child is able to use on certain things to
+                        maintain a healthy wallet and spending habits.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6"></div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-6"></div>
+                  <div className="col-lg-6"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 my-auto">
+              <div className="device-container">
+                {/* <div className="device-mockup iphone6_plus portrait white"> */}
+                <div className="device">
+                  <div className="screen">
+                    <img src={mockup6} className="img-fluid" alt="Love Tap" />
+                  </div>
+                  <div className="button"></div>
+                </div>
+                {/* </div> */}
+              </div>
+            </div>
+            <div className="col-lg-8 my-auto">
+              <div className="container-fluid">
+                <div className="row" style={{ margin: 5 }}>
+                  <div className="col-lg-6">
+                    <div className="feature-item">
+                      <i class="fas fa-heart"></i>
+                      <h3>Love Tap</h3>
+                      <p className="text-muted">
+                        This is a fun feature that both parent and child can
+                        send to each other as a friendly reminder that there is
+                        something pending that needs attention.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6"></div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-6"></div>
+                  <div className="col-lg-6"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Carousel>
+        <div className="section-heading text-center">
+          <h2>Penny Bank Pro Features</h2>
+          <p className="text-muted">
+            All the core features of Penny Bank ad free plus a growing list of
+            exclusive features!
+          </p>
+          <hr />
+        </div>
+        <Carousel
+          showArrows={true}
+          autoPlay={false}
+          showStatus={false}
+          infiniteLoop={true}
+          swipeable={true}
+          stopOnHover={true}
+          emulateTouch={true}
+        >
+          <div className="row">
+            <div className="col-lg-4 my-auto">
+              <div className="device-container">
+                {/* <div className="device-mockup iphone6_plus portrait white"> */}
+                <div className="device">
+                  <div className="screen">
+                    <img src={mockup7} className="img-fluid" alt="Stats" />
+                  </div>
+                  <div className="button"></div>
+                </div>
+                {/* </div> */}
+              </div>
+            </div>
+            <div className="col-lg-8 my-auto">
+              <div className="container-fluid">
+                <div className="row" style={{ margin: 5 }}>
+                  <div className="col-lg-6">
+                    <div className="feature-item">
+                      <i class="fas fa-chart-pie"></i>
+                      <h3>Statistics Suite</h3>
+                      <p className="text-muted">
+                        Penny Bank Pro provides a more detailed statistics suite
+                        on your child's habits and finanical health. Out the box
+                        you can see the punctuality of how often your child
+                        completes tasks on time. You can see a pie chart that
+                        shows as a whole what percentage each child contributes
+                        to contributions in the house. You can also see the
+                        wealth of each child in the house based on their wallet
+                        holdings. Considering children can make offers, some
+                        children can benifit from making their contributions
+                        more valuable. This gives a good insight of the
+                        spenders, the savers, and the negotiators!
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6"></div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-6"></div>
+                  <div className="col-lg-6"></div>
                 </div>
               </div>
             </div>
@@ -157,7 +433,7 @@ const IndexPage = () => (
             Start Today.
           </h2>
           <Scroll type="id" element="contact">
-            <a href="#contact" className="btn bg-primary btn-xl">
+            <a href="#download" className="btn bg-primary btn-xl">
               Let's Get Started!
             </a>
           </Scroll>
