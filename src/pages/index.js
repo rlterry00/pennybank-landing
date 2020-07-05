@@ -398,14 +398,14 @@ const IndexPage = () => (
                       <h3>Statistics Suite</h3>
                       <p className="text-muted">
                         Penny Bank Pro provides a more detailed statistics suite
-                        on your child's habits and finanical health. Out the box
+                        of your child's habits and finanical health. Out the box
                         you can see the punctuality of how often your child
                         completes tasks on time. You can see a pie chart that
                         shows as a whole what percentage each child contributes
                         to contributions in the house. You can also see the
                         wealth of each child in the house based on their wallet
                         holdings. Considering children can make offers, some
-                        children can benifit from making their contributions
+                        children can benefit from making their contributions
                         more valuable. This gives a good insight of the
                         spenders, the savers, and the negotiators!
                       </p>

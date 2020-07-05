@@ -19,7 +19,7 @@ class Layout extends Component {
             }
           }
         `}
-        render={data => (
+        render={(data) => (
           <>
             <Helmet
               title={data.site.siteMetadata.title}
@@ -27,9 +27,9 @@ class Layout extends Component {
                 {
                   name: "description",
                   content:
-                    "Putting the power of finance, responsibility and decision making in your child's hands!"
+                    "Putting the power of finance, responsibility and decision making in your child's hands!",
                 },
-                { name: "keywords", content: "site, web, app, mobile" }
+                { name: "keywords", content: "site, web, app, mobile" },
               ]}
             >
               <html lang="en" />
@@ -43,7 +43,7 @@ class Layout extends Component {
               />
               <meta
                 property="og:image"
-                content="https://www.pennybank.online/static/pennymock-bedd543680f0474d06a8db38442ccb84.png"
+                content="https://www.pennybank.online/static/splash_reflective-969e302b60df4f6a6b26c3ab7e564bdd.png"
               />
               {/* <!-- Twitter --> */}
               <meta property="twitter:card" content="summary_large_image" />
@@ -58,7 +58,7 @@ class Layout extends Component {
               />
               <meta
                 property="twitter:image"
-                content="https://www.pennybank.online/static/pennymock-bedd543680f0474d06a8db38442ccb84.png"
+                content="https://www.pennybank.online/static/splash_reflective-969e302b60df4f6a6b26c3ab7e564bdd.png"
               />
             </Helmet>
             <div className={"page-top"}>{children}</div>
