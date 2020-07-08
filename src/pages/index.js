@@ -1,6 +1,7 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import { Link } from "gatsby";
 
 import Layout from "../components/Layout";
 import Header from "../components/Header";
@@ -36,7 +37,7 @@ const IndexPage = () => (
             <div className="header-content mx-auto">
               <h1 className="mb-5">
                 Productivity that inspires kids to be actively engaged in
-                deciscion making!
+                decision making!
               </h1>
               <Scroll type="id" element="download">
                 <a href="#download" className="btn bg-primary btn-xl">

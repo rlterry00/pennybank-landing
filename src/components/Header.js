@@ -1,36 +1,37 @@
-import React, { Component } from 'react';
-import config from '../../config';
-import Scroll from './Scroll';
-import icon48 from '../../public/icons/icon-48x48.png';
+import React, { Component } from "react";
+import config from "../../config";
+import Scroll from "./Scroll";
+import icon48 from "../../public/icons/icon-48x48.png";
+import { Link } from "gatsby";
 export default class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
       openMenu: false,
-      visibilityClass: '',
+      visibilityClass: "",
     };
   }
-  toggleMenu = value => {
+  toggleMenu = (value) => {
     this.setState({ openMenu: value });
   };
 
   handleScroll = () => {
     const { visibilityClass } = this.state;
     if (window.pageYOffset > 300) {
-      if (visibilityClass !== 'navbar-shrink') {
-        this.setState({ visibilityClass: 'navbar-shrink' });
+      if (visibilityClass !== "navbar-shrink") {
+        this.setState({ visibilityClass: "navbar-shrink" });
       }
     } else {
-      if (visibilityClass === 'navbar-shrink') {
-        this.setState({ visibilityClass: '' });
+      if (visibilityClass === "navbar-shrink") {
+        this.setState({ visibilityClass: "" });
       }
     }
   };
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll);
   }
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener("scroll", this.handleScroll);
   }
 
   render() {
@@ -46,9 +47,9 @@ export default class Header extends Component {
             {/* {config.siteTitle}   */}
           </a>
           <button
-            onClick={_ => this.toggleMenu(!openMenu)}
+            onClick={(_) => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${
-              openMenu ? '' : 'collapsed'
+              openMenu ? "" : "collapsed"
             }`}
             type="button"
             aria-controls="navbarResponsive"
@@ -59,13 +60,13 @@ export default class Header extends Component {
           </button>
 
           <div
-            className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}
+            className={`collapse navbar-collapse ${openMenu ? "show" : ""}`}
             id="navbarResponsive"
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
+                  onClick={(_) => this.toggleMenu(!openMenu)}
                   type="id"
                   element="download"
                 >
@@ -76,7 +77,7 @@ export default class Header extends Component {
               </li>
               <li className="nav-item">
                 <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
+                  onClick={(_) => this.toggleMenu(!openMenu)}
                   type="id"
                   element="features"
                 >
@@ -87,13 +88,24 @@ export default class Header extends Component {
               </li>
               <li className="nav-item">
                 <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
+                  onClick={(_) => this.toggleMenu(!openMenu)}
                   type="id"
                   element="contact"
                 >
                   <a className="nav-link" href="#contact">
                     Contact
                   </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={(_) => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="privacy"
+                >
+                  <Link className="nav-link" href="/privacy">
+                    Privacy
+                  </Link>
                 </Scroll>
               </li>
             </ul>

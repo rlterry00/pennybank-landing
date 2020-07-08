@@ -36,7 +36,7 @@ class Layout extends Component {
               {/* <!-- Open Graph / Facebook --> */}
               <meta property="og:type" content="website" />
               <meta property="og:url" content="https://pennybank.online/" />
-              <meta property="og:title" content="Penny Bank Online" />
+              <meta property="og:title" content="Penny Bank" />
               <meta
                 property="og:description"
                 content="Putting the power of finance, responsibility and decision making in your child's hands!"
@@ -51,7 +51,7 @@ class Layout extends Component {
                 property="twitter:url"
                 content="https://pennybank.online/"
               />
-              <meta property="twitter:title" content="Penny Bank Online" />
+              <meta property="twitter:title" content="Penny Bank" />
               <meta
                 property="twitter:description"
                 content="Putting the power of finance, responsibility and decision making in your child's hands!"
@@ -74,7 +74,7 @@ Layout.propTypes = {
   noFooter: PropTypes.bool,
   noHeader: PropTypes.bool,
   noSiteHeader: PropTypes.bool,
-  activeLink: PropTypes.string
+  activeLink: PropTypes.string,
 };
 
 export default Layout;
