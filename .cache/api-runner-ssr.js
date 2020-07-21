@@ -2,6 +2,9 @@ var plugins = [{
       plugin: require('/Users/ramonterry/Desktop/pennybank-landing/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-148947018-1"},
     },{
+      plugin: require('/Users/ramonterry/Desktop/pennybank-landing/node_modules/gatsby-plugin-facebook-pixel/gatsby-ssr'),
+      options: {"plugins":[],"pixelId":"3147824358599083"},
+    },{
       plugin: require('/Users/ramonterry/Desktop/pennybank-landing/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
