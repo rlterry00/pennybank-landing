@@ -10,7 +10,8 @@ import Footer from "../components/Footer";
 import Social from "../components/Social";
 import Subscribe from "../components/Subscribe";
 
-import cSoon from "../assets/images/coming_soon.png";
+import apple from "../assets/images/app-store-badge.svg";
+import google from "../assets/images/google-play-badge.svg";
 import mockup from "../assets/images/homescreen.png";
 import mockup1 from "../assets/images/distrubutetime.png";
 import mockup2 from "../assets/images/responsibility.png";
@@ -19,6 +20,7 @@ import mockup4 from "../assets/images/offers.png";
 import mockup5 from "../assets/images/withdrawal.png";
 import mockup6 from "../assets/images/lovetap.png";
 import mockup7 from "../assets/images/stats.png";
+import mockup8 from "../assets/images/debt.png";
 
 const IndexPage = () => (
   <Layout>
@@ -54,20 +56,21 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-8 mx-auto">
-            <h2 className="section-heading">
-              The Penny Bank App is Coming Soon!
-            </h2>
-            <p>
-              Soon the Penny Bank app can help shape your kid's finance and
-              habits!
-            </p>
+            <h2 className="section-heading">Available for Download!</h2>
+            <p>Penny Bank can help shape your kid's finance and habits!</p>
             <div className="badges">
-              <a className="badge-link" href="/#">
-                <img src={cSoon} alt="Coming Soon" />
+              <a
+                className="badge-link"
+                href="https://apps.apple.com/us/app/penny-bank/id1524814324"
+              >
+                <img src={apple} alt="Apple" />
               </a>
-              {/* <a className="badge-link" href="/#">
-                <img src={astore} alt="" />
-              </a> */}
+              <a
+                className="badge-link"
+                href="https://play.google.com/store/apps/details?id=online.pennybank.pennybank"
+              >
+                <img src={google} alt="Google" />
+              </a>
               <Subscribe />
             </div>
           </div>
@@ -92,6 +95,7 @@ const IndexPage = () => (
           swipeable={true}
           stopOnHover={true}
           emulateTouch={true}
+          interval="10000"
         >
           <div className="row">
             <div className="col-lg-4 my-auto">
@@ -161,6 +165,51 @@ const IndexPage = () => (
                         Distributing and withdrawing time for things your child
                         is interested in will feel seamless with our discipline
                         and rewards system.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6"></div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-6"></div>
+                  <div className="col-lg-6"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 my-auto">
+              <div className="device-container">
+                {/* <div className="device-mockup iphone6_plus portrait white"> */}
+                <div className="device">
+                  <div className="screen">
+                    <img
+                      src={mockup8}
+                      className="img-fluid"
+                      alt="Time Banking"
+                    />
+                  </div>
+                  <div className="button"></div>
+                </div>
+                {/* </div> */}
+              </div>
+            </div>
+            <div className="col-lg-8 my-auto">
+              <div className="container-fluid">
+                <div className="row" style={{ margin: 5 }}>
+                  <div className="col-lg-6">
+                    <div className="feature-item">
+                      <i class="fab fa-creative-commons-nc"></i>
+                      <h3>Debt Discipline</h3>
+                      <p className="text-muted">
+                        One unique feature is the ability to take away cash or
+                        time from their wallet as a discipline. We find this to
+                        be most useful with time because it is the asset that
+                        kids are most disciplined and rewarded for their actions
+                        for the things they love to do. Accounts do have the
+                        ability to go into the negative insinuating they will
+                        owe that time back in responsibilities before they can
+                        start spending again.
                       </p>
                     </div>
                   </div>
@@ -387,6 +436,7 @@ const IndexPage = () => (
           swipeable={true}
           stopOnHover={true}
           emulateTouch={true}
+          interval="10000"
         >
           <div className="row">
             <div className="col-lg-4 my-auto">
