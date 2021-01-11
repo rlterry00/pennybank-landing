@@ -31,7 +31,7 @@ const IndexPage = () => (
         <div className="row h-100">
           <div className="col-lg-5 my-auto">
             <img
-              src={require("../assets/images/splash_reflective.png")}
+              src={require("../assets/images/splash_reflective-min.png")}
               style={{ height: "100%", width: "100%" }}
             />
           </div>
@@ -96,6 +96,7 @@ const IndexPage = () => (
           stopOnHover={true}
           emulateTouch={true}
           interval="10000"
+          
         >
           <div className="row">
             <div className="col-lg-4 my-auto">
