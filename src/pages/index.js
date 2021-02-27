@@ -30,16 +30,16 @@ const IndexPage = () => (
       <div className="container h-100">
         <div className="row h-100">
           <div className="col-lg-5 my-auto">
-            <img
-              src={require("../assets/images/splash_reflective-min.png")}
-              style={{ height: "100%", width: "100%" }}
-            />
+            {/* <img
+              src={require("../assets/images/Pennybank_logo_Fill.png")}
+              style={{ height: 300, width: 300 }}
+            /> */}
           </div>
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
               <h1 className="mb-5">
-                Productivity that inspires kids to be actively engaged in
-                decision making!
+                The App About Habits.{"\n"}
+                Version 2 is on the way!
               </h1>
               <Scroll type="id" element="download">
                 <a href="#download" className="btn bg-primary btn-xl">
@@ -57,7 +57,7 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-md-8 mx-auto">
             <h2 className="section-heading">Available for Download!</h2>
-            <p>Penny Bank can help shape your kid's finance and habits!</p>
+            <p>Version 2 is on the way.</p>
             <div className="badges">
               <a
                 className="badge-link"
@@ -65,12 +65,12 @@ const IndexPage = () => (
               >
                 <img src={apple} alt="Apple" />
               </a>
-              <a
+              {/* <a
                 className="badge-link"
                 href="https://play.google.com/store/apps/details?id=online.pennybank.pennybank"
               >
                 <img src={google} alt="Google" />
-              </a>
+              </a> */}
               <Subscribe />
             </div>
           </div>
@@ -96,7 +96,7 @@ const IndexPage = () => (
           stopOnHover={true}
           emulateTouch={true}
           interval="10000"
-          
+          showThumbs={false}
         >
           <div className="row">
             <div className="col-lg-4 my-auto">
@@ -495,7 +495,7 @@ const IndexPage = () => (
             <br />
             Start Today.
           </h2>
-          <Scroll type="id" element="contact">
+          <Scroll type="id" element="download">
             <a href="#download" className="btn bg-primary btn-xl">
               Let's Get Started!
             </a>
@@ -519,9 +519,9 @@ const IndexPage = () => (
         <br></br>
         <div className="contactForm">
           <h3>
-            <i className="fas fa-phone"></i>
+            <i className="fas fa-envelope"></i>
             <br></br>
-            704-269-8727
+            support@pennybank.online
           </h3>
           <form
             id="fs-frm"
