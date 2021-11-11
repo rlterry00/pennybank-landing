@@ -64,12 +64,21 @@ export default class Header extends Component {
             id="navbarResponsive"
           >
             <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-                
-                  <a className="nav-link" href="https://www.blog.pennybank.online">
-                    Blog
-                  </a>
-                
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://www.webapp.pennybank.online"
+                >
+                  Login
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://www.blog.pennybank.online"
+                >
+                  Blog
+                </a>
               </li>
               <li className="nav-item">
                 <Scroll

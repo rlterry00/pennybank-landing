@@ -38,14 +38,22 @@ const IndexPage = () => (
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
               <h1 className="mb-5">
-                The App About Habits.{"\n"}
-                Version 2 is on the way!
+                Good Habits{"\n"}
+                Start Today
               </h1>
-              <Scroll type="id" element="download">
-                <a href="#download" className="btn bg-primary btn-xl">
+              {/* <Scroll type="id" element="download"> */}
+              {/* <a href="#download" className="btn bg-primary btn-xl">
                   Learn More!
-                </a>
-              </Scroll>
+                </a> */}
+              <a
+                className="badge-link"
+                href="https://apps.apple.com/us/app/penny-bank-plus/id1522754902"
+              >
+                <img src={apple} alt="Apple" />
+              </a>
+              {/* </Scroll> */}
+            </div>
+            <div className="badges">
             </div>
           </div>
         </div>
