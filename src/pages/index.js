@@ -26,39 +26,91 @@ const IndexPage = () => (
   <Layout>
     <Header />
 
-    <header className="masthead">
+    {/* <header className="masthead"> */}
+    <section className="cta">
+      <div className="cta-content">
+        <div className="container">
+          <h2>
+            Good Habits Start Today
+            <br />
+            With Penny Bank
+          </h2>
+          {/* <Scroll type="id" element="download"> */}
+          <a
+            className="badge-link"
+            href="https://apps.apple.com/us/app/penny-bank-plus/id1522754902"
+          >
+            <img src={apple} alt="Apple" style={{ height: 250, width: 250 }} />
+          </a>
+          {/* </Scroll> */}
+        </div>
+      </div>
+      <div className="overlay"></div>
+    </section>
+    {/* </header> */}
+
+    <section id="intro">
       <div className="container h-100">
         <div className="row h-100">
           <div className="col-lg-5 my-auto">
-            {/* <img
-              src={require("../assets/images/Pennybank_logo_Fill.png")}
+            <img
+              src={require("../assets/images/ezgif.com-gif-maker.gif")}
               style={{ height: 300, width: 300 }}
-            /> */}
+            />
           </div>
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
-              <h1 className="mb-5">
-                Good Habits{"\n"}
-                Start Today
-              </h1>
-              {/* <Scroll type="id" element="download"> */}
-              {/* <a href="#download" className="btn bg-primary btn-xl">
-                  Learn More!
-                </a> */}
-              <a
-                className="badge-link"
-                href="https://apps.apple.com/us/app/penny-bank-plus/id1522754902"
-              >
-                <img src={apple} alt="Apple" />
-              </a>
-              {/* </Scroll> */}
+              <h1 className="mb-5">What is Penny Bank?</h1>
+              <p className="mb-5">
+                Penny Bank is a reward system in a mobile app designed to teach
+                your child good habits they will need to be successful as an
+                adult. Penny Bank allows you to credit and pay your child with
+                cash or free time for completing chores. In addition to the
+                intuitive banking system, Penny Bank also awards your child with
+                experience points and achievements. This gives a gaming feel
+                that shows their progression and makes daily habits fun. Our
+                social features allow your child to follow and share their
+                achievements with their friends. Along with the other features,
+                Penny Bank also provides a learning hub with fresh resources for
+                your child to learn.
+              </p>
             </div>
-            <div className="badges">
+            <div className="badges"></div>
+          </div>
+        </div>
+        <div className="row h-100">
+          <div className="col-lg-5 my-auto">
+            <h1 className="mb-5">The Penny Bank Theory</h1>
+            <img
+              src={require("../assets/images/ezgif.com-gif-maker.gif")}
+              style={{ height: 300, width: 300 }}
+            />
+            <p className="mb-5">
+              Penny Bank is a reward system in a mobile app designed to teach
+              your child good habits they will need to be successful as an
+              adult. Penny Bank allows you to credit and pay your child with
+              cash or free time for completing chores. In addition to the
+              intuitive banking system, Penny Bank also awards your child with
+              experience points and achievements. This gives a gaming feel that
+              shows their progression and makes daily habits fun. Our social
+              features allow your child to follow and share their achievements
+              with their friends. Along with the other features, Penny Bank also
+              provides a learning hub with fresh resources for your child to
+              learn.
+            </p>
+          </div>
+          <div className="col-lg-7 my-auto">
+            <div className="header-content mx-auto">
+              <img
+                src={require("../assets/images/ezgif.com-gif-maker.gif")}
+                style={{ height: 300, width: 300 }}
+              />
             </div>
+            <div className="badges"></div>
           </div>
         </div>
       </div>
-    </header>
+    </section>
 
     <section className="download bg-primary text-center" id="download">
       <div className="container">
@@ -493,24 +545,6 @@ const IndexPage = () => (
           </div>
         </Carousel>
       </div>
-    </section>
-
-    <section className="cta">
-      <div className="cta-content">
-        <div className="container">
-          <h2>
-            Good Habits.
-            <br />
-            Start Today.
-          </h2>
-          <Scroll type="id" element="download">
-            <a href="#download" className="btn bg-primary btn-xl">
-              Let's Get Started!
-            </a>
-          </Scroll>
-        </div>
-      </div>
-      <div className="overlay"></div>
     </section>
 
     <section className="contact bg-primary" id="contact">

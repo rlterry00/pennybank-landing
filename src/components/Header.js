@@ -69,7 +69,7 @@ export default class Header extends Component {
                   className="nav-link"
                   href="https://www.webapp.pennybank.online"
                 >
-                  Login
+                  Account
                 </a>
               </li>
               <li className="nav-item">
