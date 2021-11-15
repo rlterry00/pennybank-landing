@@ -53,14 +53,45 @@ const IndexPage = () => (
       <div className="container h-100">
         <div className="row h-100">
           <div className="col-lg-5 my-auto">
+            <h1 className="mb-5">What is Penny Bank?</h1>
+              <p className="mb-5">
+                Penny Bank is a reward system in a mobile app designed to teach
+                your child good habits they will need to be successful as an
+                adult. Penny Bank allows you to credit and pay your child with
+                cash or free time for completing chores. Unlike our competitors
+                you can use Penny Bank whether you want to pay your kids or not.
+                In addition to the intuitive banking system, Penny Bank also
+                awards your child with experience points and achievements. This
+                gives a gaming feel that shows their progression and makes daily
+                habits fun. Our social features allow your child to follow and
+                share their achievements with their friends. Along with the
+                other features, Penny Bank also provides a learning hub with
+                fresh resources for your child to learn.
+              </p>
+         
+          </div>
+          <div className="col-lg-7 my-auto">
+            <div className="header-content mx-auto">
             <img
-              src={require("../assets/images/ezgif.com-gif-maker.gif")}
-              style={{ height: 300, width: 300 }}
+              src={require("../assets/images/african-family-sharing-there-privacy-data-by-using-digital-devices-phones-tablets.jpg")}
+              style={{ borderRadius: 10 }}
+              className="image"
+            />
+            </div>
+            <div className="badges"></div>
+          </div>
+        </div>
+        <div className="row h-100">
+          <div className="col-lg-5 my-auto">
+            <h1 className="mb-5">The Penny Bank Theory</h1>
+            <img
+              src={require("../assets/images/father-is-idol-each-child-little-daughter-hug-serious-father-small-girl-father-yellow-background-fathers-day-family-values-dad-we-will-never-be-apart.jpg")}
+              style={{ borderRadius: 10 }}
+              className="image"
             />
           </div>
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
-              <h1 className="mb-5">What is Penny Bank?</h1>
               <p className="mb-5">
                 Penny Bank is a reward system in a mobile app designed to teach
                 your child good habits they will need to be successful as an
@@ -78,37 +109,6 @@ const IndexPage = () => (
             <div className="badges"></div>
           </div>
         </div>
-        <div className="row h-100">
-          <div className="col-lg-5 my-auto">
-            <h1 className="mb-5">The Penny Bank Theory</h1>
-            <img
-              src={require("../assets/images/ezgif.com-gif-maker.gif")}
-              style={{ height: 300, width: 300 }}
-            />
-            <p className="mb-5">
-              Penny Bank is a reward system in a mobile app designed to teach
-              your child good habits they will need to be successful as an
-              adult. Penny Bank allows you to credit and pay your child with
-              cash or free time for completing chores. In addition to the
-              intuitive banking system, Penny Bank also awards your child with
-              experience points and achievements. This gives a gaming feel that
-              shows their progression and makes daily habits fun. Our social
-              features allow your child to follow and share their achievements
-              with their friends. Along with the other features, Penny Bank also
-              provides a learning hub with fresh resources for your child to
-              learn.
-            </p>
-          </div>
-          <div className="col-lg-7 my-auto">
-            <div className="header-content mx-auto">
-              <img
-                src={require("../assets/images/ezgif.com-gif-maker.gif")}
-                style={{ height: 300, width: 300 }}
-              />
-            </div>
-            <div className="badges"></div>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -116,14 +116,18 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-8 mx-auto">
-            <h2 className="section-heading">Available for Download!</h2>
-            <p>Version 2 is on the way.</p>
+            <h2 className="section-heading">Developed By Real People and Parents</h2>
+            <p>We would love to hear your feedback!</p>
             <div className="badges">
               <a
                 className="badge-link"
                 href="https://apps.apple.com/us/app/penny-bank/id1524814324"
               >
-                <img src={apple} alt="Apple" />
+                <img
+              src={require("../assets/images/IMG_3924.png")}
+              style={{ borderRadius: 10 }}
+              className="image"
+            />
               </a>
               {/* <a
                 className="badge-link"
