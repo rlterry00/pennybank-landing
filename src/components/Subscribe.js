@@ -68,7 +68,7 @@ export default class Subscribe extends React.Component {
                     <h3>Thank you! Youʼll receive your confirmation email shortly.</h3>
                 ) : (
                         <div >
-                            <h3>Leave your email to join our Parents for Penny Bank focus group. We are building a community of parents to share tips and feedback to help us continously build a better experience on Penny Bank.</h3>
+                            <h3>Leave your email to join our Parents for Penny Bank focus group. We are building a community of parents to share tips and feedback to help us continously build a better experience with Penny Bank.</h3>
                             <form
                                 id="email-capture"
                                 method="post"

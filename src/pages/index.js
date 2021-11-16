@@ -54,29 +54,28 @@ const IndexPage = () => (
         <div className="row h-100">
           <div className="col-lg-5 my-auto">
             <h1 className="mb-5">What is Penny Bank?</h1>
-              <p className="mb-5">
-                Penny Bank is a reward system in a mobile app designed to teach
-                your child good habits they will need to be successful as an
-                adult. Penny Bank allows you to credit and pay your child with
-                cash or free time for completing chores. Unlike our competitors
-                you can use Penny Bank whether you want to pay your kids or not.
-                In addition to the intuitive banking system, Penny Bank also
-                awards your child with experience points and achievements. This
-                gives a gaming feel that shows their progression and makes daily
-                habits fun. Our social features allow your child to follow and
-                share their achievements with their friends. Along with the
-                other features, Penny Bank also provides a learning hub with
-                fresh resources for your child to learn.
-              </p>
-         
+            <p className="mb-5">
+              Penny Bank is a reward system in a mobile app designed to teach
+              your child good habits they will need to be successful as an
+              adult. Penny Bank allows you to credit and pay your child with
+              cash or free time for completing chores. Unlike our competitors
+              you can use Penny Bank whether you want to pay your kids or not.
+              In addition to the intuitive banking system, Penny Bank also
+              awards your child with experience points and achievements. This
+              gives a gaming feel that shows their progression and makes daily
+              habits fun. Our social features allow your child to follow and
+              share their achievements with their friends. Along with the other
+              features, Penny Bank also provides a learning hub with fresh
+              resources for your child to learn.
+            </p>
           </div>
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
-            <img
-              src={require("../assets/images/african-family-sharing-there-privacy-data-by-using-digital-devices-phones-tablets.jpg")}
-              style={{ borderRadius: 10 }}
-              className="image"
-            />
+              <img
+                src={require("../assets/images/african-family-sharing-there-privacy-data-by-using-digital-devices-phones-tablets.jpg")}
+                style={{ borderRadius: 10, marginBottom: 20 }}
+                className="image"
+              />
             </div>
             <div className="badges"></div>
           </div>
@@ -86,24 +85,26 @@ const IndexPage = () => (
             <h1 className="mb-5">The Penny Bank Theory</h1>
             <img
               src={require("../assets/images/father-is-idol-each-child-little-daughter-hug-serious-father-small-girl-father-yellow-background-fathers-day-family-values-dad-we-will-never-be-apart.jpg")}
-              style={{ borderRadius: 10 }}
+              style={{ borderRadius: 10, marginBottom: 20 }}
               className="image"
             />
           </div>
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
               <p className="mb-5">
-                Penny Bank is a reward system in a mobile app designed to teach
-                your child good habits they will need to be successful as an
-                adult. Penny Bank allows you to credit and pay your child with
-                cash or free time for completing chores. In addition to the
-                intuitive banking system, Penny Bank also awards your child with
-                experience points and achievements. This gives a gaming feel
-                that shows their progression and makes daily habits fun. Our
-                social features allow your child to follow and share their
-                achievements with their friends. Along with the other features,
-                Penny Bank also provides a learning hub with fresh resources for
-                your child to learn.
+                If you were to ask Team Penny Bank a year ago what our core
+                mission was it would have been hands down financial literacy.
+                After feedback and much research in the Penny Bank Labs we have found
+                that there are already solutions on the market that can help with
+                this. Instead of being another "pay your child with their own debit card" app we
+                found the problem we want to solve is with the concept of habits. The "Penny" in Penny Bank
+                actually stands for The Compound Effect. We belive small consistent actions add up to a big pay
+                off over time. One of the biggest assets a child has is their time. We built an intuive
+                system to manage and award free time in exchange for them handling their responsibilities.
+                Surprisingly kids are more interested in things over money and this also includes things
+                they enjoy doing with their free time as well. Our cash or time banking system credits them
+                with those rewards teaching a duality of financial literacy and time management. It ultimately
+                teaches your child good habits today that will carry over in the real world tomorrow.
               </p>
             </div>
             <div className="badges"></div>
@@ -116,7 +117,9 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-8 mx-auto">
-            <h2 className="section-heading">Developed By Real People and Parents</h2>
+            <h2 className="section-heading">
+              Developed By Real People and Parents
+            </h2>
             <p>We would love to hear your feedback!</p>
             <div className="badges">
               <a
@@ -124,10 +127,10 @@ const IndexPage = () => (
                 href="https://apps.apple.com/us/app/penny-bank/id1524814324"
               >
                 <img
-              src={require("../assets/images/IMG_3924.png")}
-              style={{ borderRadius: 10 }}
-              className="image"
-            />
+                  src={require("../assets/images/IMG_3924.png")}
+                  style={{ borderRadius: 10 }}
+                  className="image"
+                />
               </a>
               {/* <a
                 className="badge-link"
