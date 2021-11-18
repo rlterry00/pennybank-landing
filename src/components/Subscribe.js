@@ -62,48 +62,51 @@ export default class Subscribe extends React.Component {
     }
     render() {
         return (
-            <div>
-                <br></br>
-                {this.state.status === `success` ? (
-                    <h3>Thank you! Youʼll receive your confirmation email shortly.</h3>
-                ) : (
-                        <div >
-                            <h3>Leave your email to join our Parents for Penny Bank focus group. We are building a community of parents to share tips and feedback to help us continously build a better experience with Penny Bank.</h3>
-                            <form
-                                id="email-capture"
-                                method="post"
-                                noValidate
-                            >
-                                <div className='form-group'>
-                                    <div className='form-row'>
-                                        <div className='col'>
-                                    <input
-                                    className='form-control'
-                                        placeholder="Email"
-                                        onChange={this._handleEmailChange}
-                                        required
-                                    />
-                                    </div>
-                                    <div>
-                                    <button
-                                        className="btn btn-dark"
-                                        type="submit"
-                                        onClick={this._handleFormSubmit}
-                                    >
-                                        <i className="fa fa-paper-plane icon-large"></i>
-                                    </button>
-                                    </div>
-                                    </div>
-                                    {this.state.status === `error` && (
-                                        <div
-                                            dangerouslySetInnerHTML={{ __html: this.state.msg }}
-                                        />
-                                    )}
-                                </div>
-                            </form>
-                        </div>
+          <div>
+            <br></br>
+            {this.state.status === `success` ? (
+              <h3 style={{ color: "white" }}>
+                Thank you! Youʼll receive your confirmation email shortly.
+              </h3>
+            ) : (
+              <div>
+                <h3 style={{ color: "white" }}>
+                  Leave your email to join our Parents for Penny Bank focus
+                  group. We are building a community of parents to share tips
+                  and feedback to help us continously build a better experience
+                  with Penny Bank.
+                </h3>
+                <form id="email-capture" method="post" noValidate>
+                  <div className="form-group">
+                    <div className="form-row">
+                      <div className="col">
+                        <input
+                          className="form-control"
+                          placeholder="Email"
+                          onChange={this._handleEmailChange}
+                          required
+                        />
+                      </div>
+                      <div>
+                        <button
+                          className="btn btn-dark"
+                          type="submit"
+                          onClick={this._handleFormSubmit}
+                        >
+                          <i className="fa fa-paper-plane icon-large"></i>
+                        </button>
+                      </div>
+                    </div>
+                    {this.state.status === `error` && (
+                      <div
+                        dangerouslySetInnerHTML={{ __html: this.state.msg }}
+                      />
                     )}
-            </div>
-        )
+                  </div>
+                </form>
+              </div>
+            )}
+          </div>
+        );
     }
 }

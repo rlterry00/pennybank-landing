@@ -94,17 +94,22 @@ const IndexPage = () => (
               <p className="mb-5">
                 If you were to ask Team Penny Bank a year ago what our core
                 mission was it would have been hands down financial literacy.
-                After feedback and much research in the Penny Bank Labs we have found
-                that there are already solutions on the market that can help with
-                this. Instead of being another "pay your child with their own debit card" app we
-                found the problem we want to solve is with the concept of habits. The "Penny" in Penny Bank
-                actually stands for The Compound Effect. We belive small consistent actions add up to a big pay
-                off over time. One of the biggest assets a child has is their time. We built an intuive
-                system to manage and award free time in exchange for them handling their responsibilities.
-                Surprisingly kids are more interested in things over money and this also includes things
-                they enjoy doing with their free time as well. Our cash or time banking system credits them
-                with those rewards teaching a duality of financial literacy and time management. It ultimately
-                teaches your child good habits today that will carry over in the real world tomorrow.
+                After feedback and much research in the Penny Bank Labs we have
+                found that there are already solutions on the market that can
+                help with this. Instead of being another "pay your child with
+                their own debit card" app we found the problem we want to solve
+                is with the concept of habits. The "Penny" in Penny Bank
+                actually stands for The Compound Effect. We belive small
+                consistent actions add up to a big pay off over time. One of the
+                biggest assets a child has is their time. We built an intuive
+                system to manage and award free time in exchange for them
+                handling their responsibilities. Surprisingly kids are more
+                interested in things over money and this also includes things
+                they enjoy doing with their free time as well. Our cash or time
+                banking system credits them with those rewards teaching a
+                duality of financial literacy and time management. It ultimately
+                teaches your child good habits today that will carry over in the
+                real world tomorrow.
               </p>
             </div>
             <div className="badges"></div>
@@ -117,21 +122,20 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-8 mx-auto">
-            <h2 className="section-heading">
+            <h2 className="section-heading" style={{ color: "white" }}>
               Developed By Real People and Parents
             </h2>
-            <p>We would love to hear your feedback!</p>
+            <p style={{ color: "white" }}>
+              We would love to hear your feedback!
+            </p>
             <div className="badges">
-              <a
-                className="badge-link"
-                href="https://apps.apple.com/us/app/penny-bank/id1524814324"
-              >
-                <img
-                  src={require("../assets/images/IMG_3924.png")}
-                  style={{ borderRadius: 10 }}
-                  className="image"
-                />
-              </a>
+              
+              <img
+                src={require("../assets/images/IMG_3924.png")}
+                style={{ borderRadius: 10 }}
+                className="image"
+              />
+
               {/* <a
                 className="badge-link"
                 href="https://play.google.com/store/apps/details?id=online.pennybank.pennybank"
