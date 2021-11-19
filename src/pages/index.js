@@ -135,7 +135,7 @@ const IndexPage = () => (
               <img
                 src={require("../assets/images/animation_500_kw6k80pw.gif")}
                 className="lottie"
-                style={{ marginTop: -100, marginBottom: -100}}
+                style={{ marginTop: -100, marginBottom: -100 }}
               />
               <img
                 src={require("../assets/images/IMG_3924.png")}
@@ -567,8 +567,8 @@ const IndexPage = () => (
 
     <section className="contact bg-primary" id="contact">
       <div className="container">
-        <h2>
-          Follow the Movement!
+        <h2 style={{ color: "white" }}>
+          Where you can find Team Penny Bank
           <br></br>
           <i className="fas fa-heart"></i>
         </h2>
@@ -577,20 +577,20 @@ const IndexPage = () => (
         {/* <div className='col-4'></div> */}
         <hr />
         <br></br>
-        <div className="contactForm">
-          <h3>
-            <i className="fas fa-envelope"></i>
-            <br></br>
-            support@pennybank.online
-          </h3>
-          <form
+        {/* <div className="contactForm"> */}
+        <h3 style={{ color: "white" }}>
+          <i className="fas fa-envelope"></i>
+          <br></br>
+          support@pennybank.online
+        </h3>
+        {/* <form
             id="fs-frm"
             name="simple-contact-form"
             accept-charset="utf-8"
             action="https://formspree.io/contact@pennybank.online"
             method="post"
-          >
-            <div className="form-group">
+          > */}
+        {/* <div className="form-group">
               <fieldset id="fs-frm-inputs">
                 <label for="full-name">Full Name</label>
                 <input
@@ -631,10 +631,10 @@ const IndexPage = () => (
                 className="form-control btn btn-dark"
               />
             </div>
-          </form>
-          {/* </div> */}
-          {/* <div className='col-4'></div> */}
-        </div>
+          </form> */}
+        {/* </div> */}
+        {/* <div className='col-4'></div> */}
+        {/* </div> */}
       </div>
     </section>
 

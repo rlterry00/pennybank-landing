@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container">
         <p>&copy; The Blacklight Group 2021. All Rights Reserved.</p>
         <img src={blight} alt="" className="blight" />
-        {/* <ul className="list-inline">
+        <ul className="list-inline">
           <li className="list-inline-item">
             <a href="/#">Privacy</a>
           </li>
@@ -17,7 +17,7 @@ export default function Footer() {
           <li className="list-inline-item">
             <a href="/#">FAQ</a>
           </li>
-        </ul> */}
+        </ul>
       </div>
     </footer>
   );
