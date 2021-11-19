@@ -2,6 +2,8 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "gatsby";
+import Lottie from "react-lottie";
+
 
 import Layout from "../components/Layout";
 import Header from "../components/Header";
@@ -128,12 +130,17 @@ const IndexPage = () => (
             <p style={{ color: "white" }}>
               We would love to hear your feedback!
             </p>
+
             <div className="badges">
-              
+              <img
+                src={require("../assets/images/animation_500_kw6k80pw.gif")}
+                className="lottie"
+                style={{ marginTop: -100, marginBottom: -100}}
+              />
               <img
                 src={require("../assets/images/IMG_3924.png")}
                 style={{ borderRadius: 10 }}
-                className="image"
+                className="imageWhite"
               />
 
               {/* <a
