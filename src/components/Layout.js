@@ -27,7 +27,7 @@ class Layout extends Component {
                 {
                   name: "description",
                   content:
-                    "Putting the power of finance, responsibility and decision making in your child's hands!",
+                    "Good habits start today. Putting the power of responsibility and decision making in your child's hands!",
                 },
                 { name: "keywords", content: "site, web, app, mobile" },
               ]}
