@@ -179,9 +179,13 @@ class IndexPage extends Component {
           <section className="features" id="features">
             <div className="container">
               <div className="section-heading text-center">
-                <h2>Penny Bank's Features</h2>
+                <h2 style={{ color: "black" }}>Penny Bank Plus</h2>
+                <h2 style={{ color: "black" }}>Features and Benefits</h2>
                 <p className="text-muted">
-                  Put the power of decision making in your kid's hands!
+                  We have dropped Penny Bank in favor of Penny Bank Plus. We
+                  want to maintain our integrity with your data by providing you
+                  an ad-free experience. Penny Bank Plus comes with a 30 day
+                  free trial and is on sale for $2.99/month (normally $3.99).
                 </p>
                 <hr />
               </div>
@@ -227,6 +231,46 @@ class IndexPage extends Component {
                               tracks when your child checks out their dashboard
                               so you can monitor their habit of checking for
                               tasks.
+                            </p>
+                          </div>
+                        </div>
+                        <div className="col-lg-6"></div>
+                      </div>
+                      <div className="row">
+                        <div className="col-lg-6"></div>
+                        <div className="col-lg-6"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-4 my-auto">
+                    <div className="device-container">
+                      {/* <div className="device-mockup iphone6_plus portrait white"> */}
+                      <div className="device">
+                        <div className="screen">
+                          <img
+                            src={mockup}
+                            className="img-fluid"
+                            alt="Dashboard"
+                          />
+                        </div>
+                        <div className="button"></div>
+                      </div>
+                      {/* </div> */}
+                    </div>
+                  </div>
+                  <div className="col-lg-8 my-auto">
+                    <div className="container-fluid">
+                      <div className="row" style={{ margin: 5 }}>
+                        <div className="col-lg-6">
+                          <div className="feature-item">
+                            <i class="fas fa-wallet"></i>
+                            <h3>XP Points/Achievements</h3>
+                            <p className="text-muted">
+                              We have our own reward system based off of experience points and achievements.
+                              We have made chores and responsibilities by gamifying it. We have leaderboards
+                              and badges to share with their friends in the Penny Bank community. 
                             </p>
                           </div>
                         </div>
@@ -313,7 +357,7 @@ class IndexPage extends Component {
                               rewarded for their actions for the things they
                               love to do. Accounts do have the ability to go
                               into the negative insinuating they will owe that
-                              time back in responsibilities before they can
+                              time back in completing chores before they can
                               start spending again.
                             </p>
                           </div>
@@ -350,13 +394,13 @@ class IndexPage extends Component {
                         <div className="col-lg-6">
                           <div className="feature-item">
                             <i class="fas fa-broom"></i>
-                            <h3>Responsibility/</h3>
-                            <h3>Contribution Chart</h3>
+                            <h3>Punctuality Score</h3>
                             <p className="text-muted">
-                              Posted note style cards help your family manage
-                              the responsibilities due. The Contribution Chart
-                              fills in a visualization block each day any child
-                              in the family completes a responsibility.
+                              In order to aid in teaching kids about time
+                              management we show a visual chart of the
+                              percentage of how often your child completes their
+                              chores on time. This provides an incentive for
+                              them not to not let the things you assign expire.
                             </p>
                           </div>
                         </div>
@@ -392,14 +436,11 @@ class IndexPage extends Component {
                         <div className="col-lg-6">
                           <div className="feature-item">
                             <i class="fas fa-calendar"></i>
-                            <h3>Goals</h3>
+                            <h3>Picture Verification</h3>
                             <p className="text-muted">
-                              Posted note style cards help your family manage
-                              long term goals for your children. This feature is
-                              great for a goal being achieved over time such as
-                              school grades, behavioral improvements, etc... The
-                              embedded calendar gives a visualization of the
-                              start and endpoints of each goal.
+                              You can request your child send a picture of their
+                              work instead physcially having to check it before
+                              approving or denying a responsibility.
                             </p>
                           </div>
                         </div>
@@ -435,15 +476,15 @@ class IndexPage extends Component {
                         <div className="col-lg-6">
                           <div className="feature-item">
                             <i class="fas fa-handshake"></i>
-                            <h3>Offers</h3>
+                            <h3>Chore Offers</h3>
                             <p className="text-muted">
                               Penny bank gives kids the power of decision making
                               by giving them the ability to be proactive and
                               make an offer on how much they want to be paid for
-                              a responsibility. You have to ability to accept or
-                              decline as the parent. This feature helps kids to
-                              develop a habit of providing value for value in
-                              return!
+                              a chore. You have to ability to accept or decline
+                              as the parent. This feature helps kids to develop
+                              a habit of providing value for value in return! It
+                              works great as a trade off for free time!
                             </p>
                           </div>
                         </div>
@@ -479,13 +520,13 @@ class IndexPage extends Component {
                         <div className="col-lg-6">
                           <div className="feature-item">
                             <i class="fas fa-money-bill-wave"></i>
-                            <h3>Withdrawal Request</h3>
+                            <h3>Withdrawal Requests</h3>
                             <p className="text-muted">
-                              Manage how your child requests for cash and time
-                              with withdrawal requests. This allows you to
-                              manage how much cash or time a child is able to
-                              use for certain things to maintain a healthy
-                              wallet and spending habits.
+                              Manage how your child's requests for cash and free
+                              time with withdrawal requests. This allows you to
+                              manage how much cash or free time a child is able
+                              to use for certain things to maintain a healthy
+                              spending habits and time management.
                             </p>
                           </div>
                         </div>
@@ -540,10 +581,9 @@ class IndexPage extends Component {
                 </div>
               </Carousel>
               <div className="section-heading text-center">
-                <h2>Penny Bank Plus Features</h2>
+                <h2 style={{ color: "black" }}>Want to Learn More?</h2>
                 <p className="text-muted">
-                  All the core features of Penny Bank plus a growing list of
-                  exclusive features!
+                  Check out our frequently asked questions (FAQ)
                 </p>
                 <hr />
               </div>
