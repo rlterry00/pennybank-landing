@@ -12,9 +12,9 @@ import Subscribe from "../components/Subscribe";
 
 import apple from "../assets/images/app-store-badge.svg";
 import google from "../assets/images/google-play-badge.svg";
-import mockup from "../assets/images/homescreen.png";
+import mockup from "../assets/images/IMG_3901.png";
 import mockup1 from "../assets/images/distrubutetime.png";
-import mockup2 from "../assets/images/responsibility.png";
+import mockup2 from "../assets/images/2347.jpg";
 import mockup3 from "../assets/images/goals.png";
 import mockup4 from "../assets/images/offers.png";
 import mockup5 from "../assets/images/withdrawal.png";
@@ -30,7 +30,7 @@ class IndexPage extends Component {
   async componentDidMount() {
     Axios.get("https://api.pennybankapi.online/api/Children/topXpEarners/3")
       .then((response) => {
-        console.log(response.data)
+        console.log(response.data);
       })
       .catch((err) => {
         console.log(err);
@@ -101,6 +101,23 @@ class IndexPage extends Component {
                   <div className="badges"></div>
                 </div>
               </div>
+              <div className="section-heading text-center">
+                <h2 style={{ color: "black" }}>Did you know?</h2>
+                <img
+                  src={require("../assets/images/animation_500_kwrvs0ng.gif")}
+                  className="img-fluid"
+                  alt="Dashboard"
+                  style={{ height: 200, width: 200 }}
+                />
+                <p className="text-muted">
+                  Real banks don't physically hold your money. Banks tend to
+                  keep only enough cash on hand to meet their anticipated
+                  transaction needs. The concept of "Penny Banking" is based off
+                  an earned value that only needs to be available at the time of
+                  withdrawal.
+                </p>
+                <hr />
+              </div>
               <div className="row h-100">
                 <div className="col-lg-5 my-auto">
                   <h1 className="mb-5">The Penny Bank Theory</h1>
@@ -139,6 +156,39 @@ class IndexPage extends Component {
               </div>
             </div>
           </section>
+          <div className="section-heading text-center">
+            <h2 style={{ color: "black" }}>Featured On</h2>
+
+            <p className="text-muted">
+              Check out these outlets that allowed us to tell our story!
+            </p>
+            <hr />
+            <div
+              style={{
+                flexDirection: "row",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <a href="https://roanoke.com/business/native-roanokers-launch-app-for-family-productivity/article_40804677-7717-5d91-9671-9bf895913f0d.html?fbclid=IwAR3oc8a86c3FWwNyLWMuVVALahf853W-Nxhpws_y6E6n_K1stP24xhKHLzs">
+                <img
+                  src={require("../assets/images/roanoketimes.png")}
+                  className="img-fluid"
+                  alt="Dashboard"
+                  style={{ height: 50, width: 300 }}
+                />
+              </a>
+              <a href="https://www.youtube.com/watch?v=WYWGaNnU20U">
+                <img
+                  src={require("../assets/images/Real_Estate_DORU_editable-300x196.png")}
+                  className="img-fluid"
+                  alt="Dashboard"
+                  style={{ height: 200, width: 300 }}
+                />
+              </a>
+            </div>
+          </div>
+          <section></section>
 
           <section className="download bg-primary text-center" id="download">
             <div className="container">
@@ -181,11 +231,18 @@ class IndexPage extends Component {
               <div className="section-heading text-center">
                 <h2 style={{ color: "black" }}>Penny Bank Plus</h2>
                 <h2 style={{ color: "black" }}>Features and Benefits</h2>
+                <img
+                  src={mockup}
+                  className="img-fluid"
+                  alt="Dashboard"
+                  style={{ height: 400, width: 200 }}
+                />
                 <p className="text-muted">
-                  We have dropped Penny Bank in favor of Penny Bank Plus. We
-                  want to maintain our integrity with your data by providing you
-                  an ad-free experience. Penny Bank Plus comes with a 30 day
-                  free trial and is on sale for $2.99/month (normally $3.99).
+                  As of now we have dropped Penny Bank in favor of Penny Bank
+                  Plus. We want to maintain our integrity with your data by
+                  providing you an ad-free experience. Penny Bank Plus comes
+                  with a 30 day free trial and is on sale for $2.99/month
+                  (normally $3.99).
                 </p>
                 <hr />
               </div>
@@ -195,7 +252,7 @@ class IndexPage extends Component {
                 showStatus={false}
                 infiniteLoop={true}
                 swipeable={true}
-                stopOnHover={true}
+                stopOnHover={false}
                 emulateTouch={true}
                 interval="10000"
                 showThumbs={false}
@@ -223,14 +280,16 @@ class IndexPage extends Component {
                         <div className="col-lg-6">
                           <div className="feature-item">
                             <i class="fas fa-wallet"></i>
-                            <h3>Child Management</h3>
+                            <h3>The Ultimate Rewards System</h3>
                             <p className="text-muted">
                               You are the bank! Give your children a sense of
                               accomplishment with a visual wallet. You can
-                              delegate cash and time. Penny bank notifies and
-                              tracks when your child checks out their dashboard
-                              so you can monitor their habit of checking for
-                              tasks.
+                              reward your child with cash or free time. You can
+                              still use Penny Bank for chore delegation with out
+                              being required to pay them. Penny bank notifies
+                              and tracks when your child checks out their
+                              dashboard so you can monitor their habit of
+                              checking for tasks.
                             </p>
                           </div>
                         </div>
@@ -250,7 +309,7 @@ class IndexPage extends Component {
                       <div className="device">
                         <div className="screen">
                           <img
-                            src={mockup}
+                            src={mockup2}
                             className="img-fluid"
                             alt="Dashboard"
                           />
@@ -265,12 +324,16 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-wallet"></i>
-                            <h3>XP Points/Achievements</h3>
+                            <i class="fas fa-trophy"></i>
+                            <h3>Discovery/XP Points</h3>
                             <p className="text-muted">
-                              We have our own reward system based off of experience points and achievements.
-                              We have made chores and responsibilities by gamifying it. We have leaderboards
-                              and badges to share with their friends in the Penny Bank community. 
+                              Our Discovery tab allows kids to learn and connect
+                              with their peers. We have our own reward system
+                              based off of experience points and achievements.
+                              We have made chores and responsibilities fun by
+                              gamifying it. We have leaderboards and badges to
+                              share with their friends in the Penny Bank
+                              community.
                             </p>
                           </div>
                         </div>
@@ -306,13 +369,13 @@ class IndexPage extends Component {
                         <div className="col-lg-6">
                           <div className="feature-item">
                             <i class="fas fa-user-clock"></i>
-                            <h3>Time Banking</h3>
+                            <h3>Free Time Banking</h3>
                             <p className="text-muted">
                               Penny bank introduces the concept of time banking.
                               Time is the only asset we all share no matter the
-                              age. Distributing and withdrawing time for things
-                              your child is interested in will feel seamless
-                              with our discipline and rewards system.
+                              age. Distributing and withdrawing free time for
+                              things your child is interested in will feel
+                              seamless with our discipline and rewards system.
                             </p>
                           </div>
                         </div>
@@ -393,14 +456,14 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-broom"></i>
+                            <i class="fas fa-hourglass-half"></i>
                             <h3>Punctuality Score</h3>
                             <p className="text-muted">
                               In order to aid in teaching kids about time
                               management we show a visual chart of the
                               percentage of how often your child completes their
                               chores on time. This provides an incentive for
-                              them not to not let the things you assign expire.
+                              them not to let the things you assign expire.
                             </p>
                           </div>
                         </div>
@@ -435,7 +498,7 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-calendar"></i>
+                            <i class="fas fa-camera-retro"></i>
                             <h3>Picture Verification</h3>
                             <p className="text-muted">
                               You can request your child send a picture of their

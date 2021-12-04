@@ -71,7 +71,7 @@ export default class Subscribe extends React.Component {
             ) : (
               <div>
                 <h3 style={{ color: "white" }}>
-                  Leave your email to join our Parents for Penny Bank focus
+                  Leave your email and we will reach out to you to join our Parents for Penny Bank focus
                   group. We are building a community of parents to share tips
                   and feedback to help us continously build a better experience
                   with Penny Bank.
