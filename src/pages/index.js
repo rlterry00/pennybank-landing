@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import { Link } from "gatsby";
 import Axios from "axios";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
-import Scroll from "../components/Scroll";
 import Footer from "../components/Footer";
 import Social from "../components/Social";
 import Subscribe from "../components/Subscribe";
+import FAQ from "../components/FAQ";
 
 import apple from "../assets/images/app-store-badge.svg";
 import google from "../assets/images/google-play-badge.svg";
@@ -331,10 +330,12 @@ class IndexPage extends Component {
                             <i class="fas fa-wallet"></i>
                             <h3>Transactions</h3>
                             <p className="text-muted">
-                              Penny bank gives your child a real banking experience with transaction records.
-                              You and your child can see a history of their earnings and their net worth in a snap shot.
-                              You can also see collectively what you owe within your family as your Penny Bank grows.
-                              
+                              Penny bank gives your child a real banking
+                              experience with transaction records. You and your
+                              child can see a history of their earnings and
+                              their net worth in a snap shot. You can also see
+                              collectively what you owe within your family as
+                              your Penny Bank grows.
                             </p>
                           </div>
                         </div>
@@ -778,67 +779,29 @@ class IndexPage extends Component {
                 </p>
                 <hr />
               </div>
-              <Carousel
-                showArrows={true}
-                autoPlay={false}
-                showStatus={false}
-                infiniteLoop={true}
-                swipeable={true}
-                stopOnHover={true}
-                emulateTouch={true}
-                interval="10000"
-              >
-                <div className="row">
-                  <div className="col-lg-4 my-auto">
-                    <div className="device-container">
-                      {/* <div className="device-mockup iphone6_plus portrait white"> */}
-                      <div className="device">
-                        <div className="screen">
-                          <img
-                            src={mockup7}
-                            className="img-fluid"
-                            alt="Stats"
-                          />
-                        </div>
-                        <div className="button"></div>
-                      </div>
-                      {/* </div> */}
-                    </div>
-                  </div>
-                  <div className="col-lg-8 my-auto">
-                    <div className="container-fluid">
-                      <div className="row" style={{ margin: 5 }}>
-                        <div className="col-lg-6">
-                          <div className="feature-item">
-                            <i class="fas fa-chart-pie"></i>
-                            <h3>Statistics Suite</h3>
-                            <p className="text-muted">
-                              Penny Bank Plus provides a more detailed
-                              statistics suite of your child's habits and
-                              financial health. Out the box you can see the
-                              punctuality of how often your child completes
-                              tasks on time. You can see a pie chart that shows
-                              as a whole what percentage each child contributes
-                              to contributions in the house. You can also see
-                              the wealth of each child in the house based on
-                              their wallet holdings. Considering children can
-                              make offers, some children can benefit from making
-                              their contributions more valuable. This gives a
-                              good insight of the spenders, the savers, and the
-                              negotiators!
-                            </p>
-                          </div>
-                        </div>
-                        <div className="col-lg-6"></div>
-                      </div>
-                      <div className="row">
-                        <div className="col-lg-6"></div>
-                        <div className="col-lg-6"></div>
-                      </div>
-                    </div>
-                  </div>
+              <div className="row">
+                <div className="col-lg-5 my-auto">
+                  <img
+                    src={require("../assets/images/stack-colorful-yellow-cards-with-question-mark.jpg")}
+                    style={{ borderRadius: 10, marginBottom: 20 }}
+                    className="image"
+                  />
                 </div>
-              </Carousel>
+                <div className="col-lg-7 my-auto">
+                  <div className="header-content mx-auto">
+                    <FAQ />
+                    <br />
+                    <button
+                      type="button"
+                      class="btn btn-info"
+                      onClick={() => console.log("clicked button")}
+                    >
+                      Learn More 
+                    </button>
+                  </div>
+                  <div className="badges"></div>
+                </div>
+              </div>
             </div>
           </section>
 

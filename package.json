@@ -1,14 +1,14 @@
 {
   "name": "pennybank-landing",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "Penny Bank app landing page",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rlterry00/pennybank-landing"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Ramon Terry",
+    "email": "rlterry@theblacklightgroup.org"
   },
   "dependencies": {
     "axios": "^0.21.4",
@@ -34,6 +34,7 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-images": "^0.5.19",
+    "react-light-accordion": "^0.1.4",
     "react-lottie": "^1.2.3",
     "react-responsive-carousel": "^3.2.9",
     "react-scrollspy": "^3.4.0",
