@@ -13,14 +13,18 @@ import Subscribe from "../components/Subscribe";
 import apple from "../assets/images/app-store-badge.svg";
 import google from "../assets/images/google-play-badge.svg";
 import mockup from "../assets/images/IMG_3901.png";
-import mockup1 from "../assets/images/distrubutetime.png";
-import mockup2 from "../assets/images/2347.jpg";
-import mockup3 from "../assets/images/goals.png";
-import mockup4 from "../assets/images/offers.png";
-import mockup5 from "../assets/images/withdrawal.png";
-import mockup6 from "../assets/images/lovetap.png";
-import mockup7 from "../assets/images/stats.png";
-import mockup8 from "../assets/images/debt.png";
+import mockup1 from "../assets/images/IMG_4046.png";
+import mockup2 from "../assets/images/IMG_4056.png";
+import mockup3 from "../assets/images/IMG_4061.png";
+import mockup4 from "../assets/images/IMG_4064.png";
+import mockup5 from "../assets/images/IMG_4048.png";
+import mockup6 from "../assets/images/IMG_4054.png";
+import mockup7 from "../assets/images/IMG_4066.png";
+import mockup8 from "../assets/images/IMG_4049.png";
+import mockup9 from "../assets/images/IMG_4068.png";
+import mockup10 from "../assets/images/IMG_4052.png";
+import mockup11 from "../assets/images/IMG_4059.png";
+import mockup12 from "../assets/images/IMG_4074.png";
 
 class IndexPage extends Component {
   state = {
@@ -175,7 +179,7 @@ class IndexPage extends Component {
                   src={require("../assets/images/roanoketimes.png")}
                   className="img-fluid"
                   alt="Dashboard"
-                  style={{ height: 50, width: 300 }}
+                  style={{ height: 50, width: 350 }}
                 />
               </a>
               <a href="https://www.youtube.com/watch?v=WYWGaNnU20U">
@@ -249,13 +253,13 @@ class IndexPage extends Component {
               <Carousel
                 showArrows={true}
                 autoPlay={true}
-                showStatus={false}
+                showStatus={true}
                 infiniteLoop={true}
                 swipeable={true}
                 stopOnHover={false}
                 emulateTouch={true}
                 interval="10000"
-                showThumbs={false}
+                showThumbs={true}
               >
                 <div className="row">
                   <div className="col-lg-4 my-auto">
@@ -264,7 +268,7 @@ class IndexPage extends Component {
                       <div className="device">
                         <div className="screen">
                           <img
-                            src={mockup}
+                            src={mockup1}
                             className="img-fluid"
                             alt="Dashboard"
                           />
@@ -309,9 +313,50 @@ class IndexPage extends Component {
                       <div className="device">
                         <div className="screen">
                           <img
+                            src={mockup12}
+                            className="img-fluid"
+                            alt="Transactions"
+                          />
+                        </div>
+                        <div className="button"></div>
+                      </div>
+                      {/* </div> */}
+                    </div>
+                  </div>
+                  <div className="col-lg-8 my-auto">
+                    <div className="container-fluid">
+                      <div className="row" style={{ margin: 5 }}>
+                        <div className="col-lg-6">
+                          <div className="feature-item">
+                            <i class="fas fa-wallet"></i>
+                            <h3>Transactions</h3>
+                            <p className="text-muted">
+                              Penny bank gives your child a real banking experience with transaction records.
+                              You and your child can see a history of their earnings and their net worth in a snap shot.
+                              You can also see collectively what you owe within your family as your Penny Bank grows.
+                              
+                            </p>
+                          </div>
+                        </div>
+                        <div className="col-lg-6"></div>
+                      </div>
+                      <div className="row">
+                        <div className="col-lg-6"></div>
+                        <div className="col-lg-6"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-4 my-auto">
+                    <div className="device-container">
+                      {/* <div className="device-mockup iphone6_plus portrait white"> */}
+                      <div className="device">
+                        <div className="screen">
+                          <img
                             src={mockup2}
                             className="img-fluid"
-                            alt="Dashboard"
+                            alt="Discovery Screen"
                           />
                         </div>
                         <div className="button"></div>
@@ -353,7 +398,90 @@ class IndexPage extends Component {
                       <div className="device">
                         <div className="screen">
                           <img
-                            src={mockup1}
+                            src={mockup3}
+                            className="img-fluid"
+                            alt="Avatar Screen"
+                          />
+                        </div>
+                        <div className="button"></div>
+                      </div>
+                      {/* </div> */}
+                    </div>
+                  </div>
+                  <div className="col-lg-8 my-auto">
+                    <div className="container-fluid">
+                      <div className="row" style={{ margin: 5 }}>
+                        <div className="col-lg-6">
+                          <div className="feature-item">
+                            <i class="fas fa-user-astronaut"></i>
+                            <h3>Avatar Personalities</h3>
+                            <p className="text-muted">
+                              We have added avatars and user names to represent
+                              your child in the Penny Bank universe. We even
+                              threw in a few zombies and princesses with
+                              customizable colors for the background.
+                            </p>
+                          </div>
+                        </div>
+                        <div className="col-lg-6"></div>
+                      </div>
+                      <div className="row">
+                        <div className="col-lg-6"></div>
+                        <div className="col-lg-6"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-4 my-auto">
+                    <div className="device-container">
+                      {/* <div className="device-mockup iphone6_plus portrait white"> */}
+                      <div className="device">
+                        <div className="screen">
+                          <img
+                            src={mockup4}
+                            className="img-fluid"
+                            alt="Saved Chores Screen"
+                          />
+                        </div>
+                        <div className="button"></div>
+                      </div>
+                      {/* </div> */}
+                    </div>
+                  </div>
+                  <div className="col-lg-8 my-auto">
+                    <div className="container-fluid">
+                      <div className="row" style={{ margin: 5 }}>
+                        <div className="col-lg-6">
+                          <div className="feature-item">
+                            <i class="fas fa-save"></i>
+                            <h3>Saved Chores/Quick Buttons</h3>
+                            <p className="text-muted">
+                              We have made things easier and quicker with quick
+                              buttons through out the app that make a task easy
+                              to be done in a few taps. We also added the
+                              ability to save chores so reassigning can be a
+                              breeze.
+                            </p>
+                          </div>
+                        </div>
+                        <div className="col-lg-6"></div>
+                      </div>
+                      <div className="row">
+                        <div className="col-lg-6"></div>
+                        <div className="col-lg-6"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-4 my-auto">
+                    <div className="device-container">
+                      {/* <div className="device-mockup iphone6_plus portrait white"> */}
+                      <div className="device">
+                        <div className="screen">
+                          <img
+                            src={mockup5}
                             className="img-fluid"
                             alt="Time Banking"
                           />
@@ -395,9 +523,9 @@ class IndexPage extends Component {
                       <div className="device">
                         <div className="screen">
                           <img
-                            src={mockup8}
+                            src={mockup6}
                             className="img-fluid"
-                            alt="Time Banking"
+                            alt="Debt Screen"
                           />
                         </div>
                         <div className="button"></div>
@@ -441,9 +569,9 @@ class IndexPage extends Component {
                       <div className="device">
                         <div className="screen">
                           <img
-                            src={mockup2}
+                            src={mockup7}
                             className="img-fluid"
-                            alt="Responsibility"
+                            alt="Puncuality Screen"
                           />
                         </div>
                         <div className="button"></div>
@@ -483,9 +611,9 @@ class IndexPage extends Component {
                       <div className="device">
                         <div className="screen">
                           <img
-                            src={mockup3}
+                            src={mockup8}
                             className="img-fluid"
-                            alt="Goals"
+                            alt="Picture Verification"
                           />
                         </div>
                         <div className="button"></div>
@@ -523,7 +651,7 @@ class IndexPage extends Component {
                       <div className="device">
                         <div className="screen">
                           <img
-                            src={mockup4}
+                            src={mockup9}
                             className="img-fluid"
                             alt="Offers"
                           />
@@ -567,7 +695,7 @@ class IndexPage extends Component {
                       <div className="device">
                         <div className="screen">
                           <img
-                            src={mockup5}
+                            src={mockup10}
                             className="img-fluid"
                             alt="Withdraw Request"
                           />
@@ -609,7 +737,7 @@ class IndexPage extends Component {
                       <div className="device">
                         <div className="screen">
                           <img
-                            src={mockup6}
+                            src={mockup11}
                             className="img-fluid"
                             alt="Love Tap"
                           />
