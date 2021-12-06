@@ -42,7 +42,7 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
+          <a className="navbar-brand" href="/">
             <img src={icon48} alt="logo" />
             {/* {config.siteTitle}   */}
           </a>
@@ -73,25 +73,6 @@ export default class Header extends Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="https://www.blog.pennybank.online"
-                >
-                  Blog
-                </a>
-              </li>
-              <li className="nav-item">
-                <Scroll
-                  onClick={(_) => this.toggleMenu(!openMenu)}
-                  type="id"
-                  element="download"
-                >
-                  <a className="nav-link" href="#download">
-                    Download
-                  </a>
-                </Scroll>
-              </li>
-              <li className="nav-item">
                 <Scroll
                   onClick={(_) => this.toggleMenu(!openMenu)}
                   type="id"
@@ -106,10 +87,63 @@ export default class Header extends Component {
                 <Scroll
                   onClick={(_) => this.toggleMenu(!openMenu)}
                   type="id"
+                  element="FaqPage"
+                >
+                  <Link className="nav-link" href="/faq">
+                    FAQ
+                  </Link>
+                </Scroll>
+              </li>
+
+              <li className="nav-item">
+                <Scroll
+                  onClick={(_) => this.toggleMenu(!openMenu)}
+                  type="id"
                   element="contact"
                 >
                   <a className="nav-link" href="#contact">
                     Contact
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={(_) => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="download"
+                >
+                  <a className="nav-link" href="#download">
+                    Team Penny Bank
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://www.blog.pennybank.online"
+                >
+                  Blog
+                </a>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={(_) => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="download"
+                >
+                  <a className="nav-link" href="#download">
+                    Press
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={(_) => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="download"
+                >
+                  <a className="nav-link" href="#download">
+                    Affiliates
                   </a>
                 </Scroll>
               </li>

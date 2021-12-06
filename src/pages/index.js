@@ -782,7 +782,7 @@ class IndexPage extends Component {
               <div className="row">
                 <div className="col-lg-5 my-auto">
                   <img
-                    src={require("../assets/images/stack-colorful-yellow-cards-with-question-mark.jpg")}
+                    src={require("../assets/images/close-up-portrait-attractive-young-woman-isolated.jpg")}
                     style={{ borderRadius: 10, marginBottom: 20 }}
                     className="image"
                   />
