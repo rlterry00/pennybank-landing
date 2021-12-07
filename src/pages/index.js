@@ -7,7 +7,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Social from "../components/Social";
 import Subscribe from "../components/Subscribe";
-import FAQ from "../components/FAQ";
+import FAQShort from "../components/FAQShort";
 
 import apple from "../assets/images/app-store-badge.svg";
 import google from "../assets/images/google-play-badge.svg";
@@ -789,7 +789,7 @@ class IndexPage extends Component {
                 </div>
                 <div className="col-lg-7 my-auto">
                   <div className="header-content mx-auto">
-                    <FAQ />
+                    <FAQShort />
                     <br />
                     <button
                       type="button"
