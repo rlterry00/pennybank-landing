@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import Social from "../components/Social";
 import Subscribe from "../components/Subscribe";
 import FAQShort from "../components/FAQShort";
+import { navigate } from "gatsby";
 
 import apple from "../assets/images/app-store-badge.svg";
 import google from "../assets/images/google-play-badge.svg";
@@ -794,9 +795,9 @@ class IndexPage extends Component {
                     <button
                       type="button"
                       class="btn btn-info"
-                      onClick={() => console.log("clicked button")}
+                      onClick={() => navigate("/faq")}
                     >
-                      Learn More 
+                      Learn More
                     </button>
                   </div>
                   <div className="badges"></div>

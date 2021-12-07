@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.css"; // requires a loader
 import Layout from "../components/Layout";
-import Header from "../components/Header";
+import HeaderLite from "../components/HeaderLite";
 import Footer from "../components/Footer";
 import FAQ from "../components/FAQ";
 
@@ -10,7 +10,7 @@ class FaqPage extends Component {
     return (
       <React.Fragment>
         <Layout>
-          <Header />
+          <HeaderLite />
 
           {/* <header className="masthead"> */}
           <section className="faq">
