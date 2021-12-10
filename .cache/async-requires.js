@@ -9,6 +9,6 @@ exports.components = {
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-press-js": () => import("./../../../src/pages/press.js" /* webpackChunkName: "component---src-pages-press-js" */),
   "component---src-pages-privacy-js": () => import("./../../../src/pages/privacy.js" /* webpackChunkName: "component---src-pages-privacy-js" */),
-  "component---src-pages-team-pennybank-js": () => import("./../../../src/pages/team-pennybank.js" /* webpackChunkName: "component---src-pages-team-pennybank-js" */)
+  "component---src-pages-team-js": () => import("./../../../src/pages/team.js" /* webpackChunkName: "component---src-pages-team-js" */)
 }
 

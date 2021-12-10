@@ -77,7 +77,9 @@ class IndexPage extends Component {
             <div className="container h-100">
               <div className="row h-100">
                 <div className="col-lg-5 my-auto">
-                  <h1 className="mb-5">What is Penny Bank?</h1>
+                  <h1 className="mb-5">
+                    What is Penny Bank?
+                  </h1>
                   <p className="mb-5">
                     Penny Bank is a reward system in a mobile app designed to
                     teach your child good habits they will need to be successful

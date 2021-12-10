@@ -12,6 +12,6 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("/Users/rlterry/Desktop/pennybank-landing/src/pages/index.js"))),
   "component---src-pages-press-js": hot(preferDefault(require("/Users/rlterry/Desktop/pennybank-landing/src/pages/press.js"))),
   "component---src-pages-privacy-js": hot(preferDefault(require("/Users/rlterry/Desktop/pennybank-landing/src/pages/privacy.js"))),
-  "component---src-pages-team-pennybank-js": hot(preferDefault(require("/Users/rlterry/Desktop/pennybank-landing/src/pages/team-pennybank.js")))
+  "component---src-pages-team-js": hot(preferDefault(require("/Users/rlterry/Desktop/pennybank-landing/src/pages/team.js")))
 }
 
