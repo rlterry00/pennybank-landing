@@ -53,7 +53,7 @@ class IndexPage extends Component {
                 <h2>
                   Good Habits Start Today
                   <br />
-                  With Penny Bank
+                  With Penny Bank Plus
                 </h2>
                 {/* <Scroll type="id" element="download"> */}
                 <a
@@ -77,9 +77,7 @@ class IndexPage extends Component {
             <div className="container h-100">
               <div className="row h-100">
                 <div className="col-lg-5 my-auto">
-                  <h1 className="mb-5">
-                    What is Penny Bank?
-                  </h1>
+                  <h1 className="mb-5">What is Penny Bank?</h1>
                   <p className="mb-5">
                     Penny Bank is a reward system in a mobile app designed to
                     teach your child good habits they will need to be successful
@@ -200,12 +198,16 @@ class IndexPage extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-8 mx-auto">
+                  <button
+                    type="button"
+                    class="btn btn-warning"
+                    onClick={() => navigate("/team")}
+                  >
+                    Learn About The Team
+                  </button>
                   <h2 className="section-heading" style={{ color: "white" }}>
                     Developed By Real People and Parents
                   </h2>
-                  <p style={{ color: "white" }}>
-                    We would love to hear your feedback!
-                  </p>
 
                   <div className="badges">
                     <img
@@ -213,6 +215,9 @@ class IndexPage extends Component {
                       className="lottie"
                       style={{ marginTop: -100, marginBottom: -100 }}
                     />
+                    <p style={{ color: "white" }}>
+                      We would love to hear your feedback!
+                    </p>
                     <img
                       src={require("../assets/images/IMG_3924.png")}
                       style={{ borderRadius: 10 }}
