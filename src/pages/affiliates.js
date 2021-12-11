@@ -38,8 +38,8 @@ class Affiliates extends Component {
                   </h1>
                   <p className="mb-5">
                     As Penny Bank continues to grow as a resource hub for
-                    parents we have decided to partner with other brands that
-                    can offer value to our Penny Bank Plus users. These
+                    parents we have decided to partner with other brands or organizations that
+                    can offer value to our Penny Bank Plus users. Some of these
                     businesses are gracious enough to provide special offers and
                     discounts on their services and products exclusively to our
                     Penny Bank Plus users. You will be able to find coupon codes
@@ -66,7 +66,7 @@ class Affiliates extends Component {
 
             <hr />
             <p className="text-muted">
-              We are looking to partner with brands even if your business is
+              We are looking to partner with brands even if your business or organization is
               local. Please reach out to us at contact@pennybank.online with
               affiliates in the header title and we will follow up with you.
             </p>

@@ -48,7 +48,7 @@ export default function FAQ() {
       </AccordionItem>
       <AccordionItem title="Does my child need a email address for their account?">
         <p style={{ margin: 10 }}>
-          No your child does not need an email address to use Penny Bank Plus.
+          No, your child does not need an email address to use Penny Bank Plus.
           When signing up you are creating a family and that email you use to
           sign up will be used with the whole family to login
         </p>
@@ -86,7 +86,7 @@ export default function FAQ() {
           Penny Bank Plus now has picture verification and you can require your
           child to take a picture that you have to verify before approving the
           chore completed. If a picture is not suitable for the task assigned
-          you can physically check it and approve or deny afterwards.
+          you can physically check it and approve or deny afterward.
         </p>
       </AccordionItem>
       <AccordionItem title="Can my family use it on multiple devices?">
