@@ -119,11 +119,11 @@ export default class HeaderLite extends Component {
                 <Scroll
                   onClick={(_) => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="download"
+                  element="Affiliates"
                 >
-                  <a className="nav-link" href="#download">
+                  <Link className="nav-link" href="/affiliates">
                     Affiliates
-                  </a>
+                  </Link>
                 </Scroll>
               </li>
               <li className="nav-item">
