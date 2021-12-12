@@ -129,10 +129,10 @@ export default class HeaderLite extends Component {
                 <Scroll
                   onClick={(_) => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="privacy"
+                  element="LeaderboardPage"
                 >
-                  <Link className="nav-link" href="/privacy">
-                    Privacy
+                  <Link className="nav-link" href="/leaderboards">
+                    Leaderboards
                   </Link>
                 </Scroll>
               </li>

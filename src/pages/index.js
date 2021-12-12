@@ -31,15 +31,7 @@ class IndexPage extends Component {
     xpData: {},
   };
 
-  async componentDidMount() {
-    Axios.get("https://api.pennybankapi.online/api/Children/topXpEarners/10")
-      .then((response) => {
-        console.log(response.data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }
+  
   render() {
     return (
       <React.Fragment>
