@@ -49,6 +49,7 @@ class Press extends Component {
                       src={require("../assets/images/video-camera-taking-live-video-streaming-people-working-background.jpg")}
                       style={{ borderRadius: 10, marginBottom: 20 }}
                       className="image"
+                      alt="Press"
                     />
                   </div>
                   <div className="badges"></div>

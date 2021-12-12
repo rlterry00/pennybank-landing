@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.css"; // requires a loader
 import Layout from "../components/Layout";
 import HeaderLite from "../components/HeaderLite";
 import Footer from "../components/Footer";
-import FAQ from "../components/FAQ";
+
 
 class Affiliates extends Component {
   render() {
@@ -38,13 +38,14 @@ class Affiliates extends Component {
                   </h1>
                   <p className="mb-5">
                     As Penny Bank continues to grow as a resource hub for
-                    parents we have decided to partner with other brands or organizations that
-                    can offer value to our Penny Bank Plus users. Some of these
-                    businesses are gracious enough to provide special offers and
-                    discounts on their services and products exclusively to our
-                    Penny Bank Plus users. You will be able to find coupon codes
-                    to redeem with in the Penny Bank Plus mohile app. Check this
-                    page often for an updated list of partners.
+                    parents we have decided to partner with other brands or
+                    organizations that can offer value to our Penny Bank Plus
+                    users. Some of these businesses are gracious enough to
+                    provide special offers and discounts on their services and
+                    products exclusively to our Penny Bank Plus users. You will
+                    be able to find coupon codes to redeem with in the Penny
+                    Bank Plus mohile app. Check this page often for an updated
+                    list of partners.
                   </p>
                 </div>
                 <div className="col-lg-7 my-auto">
@@ -53,6 +54,7 @@ class Affiliates extends Component {
                       src={require("../assets/images/building-strong-team-wooden-blocks-with-people-icon-blue-background-human-resources-management-concept.jpg")}
                       style={{ borderRadius: 10, marginBottom: 20 }}
                       className="image"
+                      alt="Affiliates"
                     />
                   </div>
                   <div className="badges"></div>
@@ -66,9 +68,10 @@ class Affiliates extends Component {
 
             <hr />
             <p className="text-muted">
-              We are looking to partner with brands even if your business or organization is
-              local. Please reach out to us at contact@pennybank.online with
-              affiliates in the header title and we will follow up with you.
+              We are looking to partner with brands even if your business or
+              organization is local. Please reach out to us at
+              contact@pennybank.online with affiliates in the header title and
+              we will follow up with you.
             </p>
           </div>
 

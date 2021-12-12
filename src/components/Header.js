@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import config from "../../config";
 import Scroll from "./Scroll";
 import icon48 from "../../public/icons/icon-48x48.png";
 import { Link } from "gatsby";

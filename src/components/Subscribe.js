@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import addToMailchimp from 'gatsby-plugin-mailchimp'; 
-export default class Subscribe extends React.Component {
+export default class Subscribe extends Component {
     constructor() {
         super()
         this.state = {

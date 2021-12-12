@@ -3,8 +3,6 @@ import "react-responsive-carousel/lib/styles/carousel.css"; // requires a loader
 import Layout from "../components/Layout";
 import HeaderLite from "../components/HeaderLite";
 import Footer from "../components/Footer";
-import LiteYouTubeEmbed from "react-lite-youtube-embed";
-import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 import YouTube from "react-youtube";
 import Avatar from "react-avatar";
 
@@ -36,7 +34,7 @@ class Team extends Component {
             <h2 style={{ color: "black", margin: 30 }}>Our Inner Child</h2>
             <hr />
 
-            <p className="text-muted" style={{ margin: 30}}>
+            <p className="text-muted" style={{ margin: 30 }}>
               To make Penny Bank great we had to tap into our inner child. We
               have decided instead of using professional headshots with our list
               of accolates we would like to share our favorite avatars from
@@ -55,6 +53,7 @@ class Team extends Component {
                 size={175}
                 style={{ backgroundColor: "#20B2AA", margin: 3 }}
                 className="image"
+                alt="Avatar"
               />
               <Avatar
                 src={require("../assets/images/Ryan.png")}
@@ -62,6 +61,7 @@ class Team extends Component {
                 size={175}
                 style={{ backgroundColor: "#20B2AA", margin: 3 }}
                 className="image"
+                alt="Avatar"
               />
               <Avatar
                 src={require("../assets/images/Jamie.png")}
@@ -69,6 +69,7 @@ class Team extends Component {
                 size={175}
                 style={{ backgroundColor: "#F8EB76", margin: 3 }}
                 className="image"
+                alt="Avatar"
               />
               <Avatar
                 src={require("../assets/images/GirlAvatar_40.png")}
@@ -76,6 +77,7 @@ class Team extends Component {
                 size={175}
                 style={{ backgroundColor: "#F8EB76", margin: 3 }}
                 className="image"
+                alt="Avatar"
               />
               <Avatar
                 src={require("../assets/images/Julius.png")}
@@ -83,6 +85,7 @@ class Team extends Component {
                 size={175}
                 style={{ backgroundColor: "#20B2AA", margin: 3 }}
                 className="image"
+                alt="Avatar"
               />
               <Avatar
                 src={require("../assets/images/Nik.png")}
@@ -90,6 +93,7 @@ class Team extends Component {
                 size={175}
                 style={{ backgroundColor: "#F8EB76", margin: 3 }}
                 className="image"
+                alt="Avatar"
               />
             </div>
           </div>
@@ -103,6 +107,7 @@ class Team extends Component {
                     src={require("../assets/images/smiling-african-student-pointing-with-pencil-laptop-screen-concentrated-blonde-woman-glasses-propping-chin-with-hand-while-working-with-computer-office.jpg")}
                     style={{ borderRadius: 10, marginBottom: 20 }}
                     className="image"
+                    alt="Team"
                   />
                 </div>
                 <div className="col-lg-7 my-auto">
@@ -154,17 +159,17 @@ class Team extends Component {
               </p>
             </div>
 
-            <div className="section-heading text-center" style={{ margin: 30}}>
+            <div className="section-heading text-center" style={{ margin: 30 }}>
               <h2 style={{ color: "black" }}>Looking to Join?</h2>
 
               <hr />
               <p className="text-muted">
                 We are always looking for fresh talent to contribute to the
                 growth of the team. If you are looking to get into cross
-                platform web and mobile development, cloud infrastructure, UI/UX desgin or
-                creative marketing and sales. Please reach out to us at
-                contact@pennybank.online with the header "Careers" and we will
-                send you a list of available positions on the team.
+                platform web and mobile development, cloud infrastructure, UI/UX
+                desgin or creative marketing and sales. Please reach out to us
+                at contact@pennybank.online with the header "Careers" and we
+                will send you a list of available positions on the team.
               </p>
             </div>
           </section>

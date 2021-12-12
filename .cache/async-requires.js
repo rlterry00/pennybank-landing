@@ -7,6 +7,7 @@ exports.components = {
   "component---src-pages-affiliates-js": () => import("./../../../src/pages/affiliates.js" /* webpackChunkName: "component---src-pages-affiliates-js" */),
   "component---src-pages-faq-js": () => import("./../../../src/pages/faq.js" /* webpackChunkName: "component---src-pages-faq-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
+  "component---src-pages-leaderboards-js": () => import("./../../../src/pages/leaderboards.js" /* webpackChunkName: "component---src-pages-leaderboards-js" */),
   "component---src-pages-press-js": () => import("./../../../src/pages/press.js" /* webpackChunkName: "component---src-pages-press-js" */),
   "component---src-pages-privacy-js": () => import("./../../../src/pages/privacy.js" /* webpackChunkName: "component---src-pages-privacy-js" */),
   "component---src-pages-team-js": () => import("./../../../src/pages/team.js" /* webpackChunkName: "component---src-pages-team-js" */)

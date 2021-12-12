@@ -50,6 +50,7 @@ class FaqPage extends Component {
                       src={require("../assets/images/how-they-quickly-grew-up-portrait-shocked-anxious-european-father-sitting-with-sons-holding-hands-face-dropping-jaw.jpg")}
                       style={{ borderRadius: 10, marginBottom: 20 }}
                       className="image"
+                      alt="FAQ"
                     />
                   </div>
                   <div className="badges"></div>

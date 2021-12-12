@@ -39,7 +39,7 @@ class Layout extends Component {
               <meta property="og:title" content="Penny Bank" />
               <meta
                 property="og:description"
-                content="Putting the power of finance, responsibility and decision making in your child's hands!"
+                content="Good habits start today. Penny Bank Plus the ultimate rewards system that teaches your child habit making, time management and financial literacy."
               />
               <meta
                 property="og:image"

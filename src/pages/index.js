@@ -11,7 +11,7 @@ import FAQShort from "../components/FAQShort";
 import { navigate } from "gatsby";
 
 import apple from "../assets/images/app-store-badge.svg";
-import google from "../assets/images/google-play-badge.svg";
+// import google from "../assets/images/google-play-badge.svg";
 import mockup from "../assets/images/IMG_3901.png";
 import mockup1 from "../assets/images/IMG_4046.png";
 import mockup2 from "../assets/images/IMG_4056.png";
@@ -32,7 +32,7 @@ class IndexPage extends Component {
   };
 
   async componentDidMount() {
-    Axios.get("https://api.pennybankapi.online/api/Children/topXpEarners/3")
+    Axios.get("https://api.pennybankapi.online/api/Children/topXpEarners/10")
       .then((response) => {
         console.log(response.data);
       })
@@ -100,6 +100,7 @@ class IndexPage extends Component {
                       src={require("../assets/images/african-family-sharing-there-privacy-data-by-using-digital-devices-phones-tablets.jpg")}
                       style={{ borderRadius: 10, marginBottom: 20 }}
                       className="image"
+                      alt="Children"
                     />
                   </div>
                   <div className="badges"></div>
@@ -129,6 +130,7 @@ class IndexPage extends Component {
                     src={require("../assets/images/father-is-idol-each-child-little-daughter-hug-serious-father-small-girl-father-yellow-background-fathers-day-family-values-dad-we-will-never-be-apart.jpg")}
                     style={{ borderRadius: 10, marginBottom: 20 }}
                     className="image"
+                    alt="Father and Child"
                   />
                 </div>
                 <div className="col-lg-7 my-auto">
@@ -200,7 +202,7 @@ class IndexPage extends Component {
                 <div className="col-md-8 mx-auto">
                   <button
                     type="button"
-                    class="btn btn-warning"
+                    className="btn btn-warning"
                     onClick={() => navigate("/team")}
                   >
                     Learn About The Team
@@ -214,6 +216,7 @@ class IndexPage extends Component {
                       src={require("../assets/images/animation_500_kw6k80pw.gif")}
                       className="lottie"
                       style={{ marginTop: -100, marginBottom: -100 }}
+                      alt="Question"
                     />
                     <p style={{ color: "white" }}>
                       We would love to hear your feedback!
@@ -222,6 +225,7 @@ class IndexPage extends Component {
                       src={require("../assets/images/IMG_3924.png")}
                       style={{ borderRadius: 10 }}
                       className="imageWhite"
+                      alt="Review"
                     />
 
                     {/* <a
@@ -266,7 +270,7 @@ class IndexPage extends Component {
                 stopOnHover={false}
                 emulateTouch={true}
                 interval="10000"
-                showThumbs={true}
+                showThumbs={false}
               >
                 <div className="row">
                   <div className="col-lg-4 my-auto">
@@ -290,7 +294,7 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-wallet"></i>
+                            <i className="fas fa-wallet"></i>
                             <h3>The Ultimate Rewards System</h3>
                             <p className="text-muted">
                               You are the bank! Give your children a sense of
@@ -335,7 +339,7 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-wallet"></i>
+                            <i className="fas fa-wallet"></i>
                             <h3>Transactions</h3>
                             <p className="text-muted">
                               Penny bank gives your child a real banking
@@ -378,7 +382,7 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-trophy"></i>
+                            <i className="fas fa-trophy"></i>
                             <h3>Discovery/XP Points</h3>
                             <p className="text-muted">
                               Our Discovery tab allows kids to learn and connect
@@ -422,7 +426,7 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-user-astronaut"></i>
+                            <i className="fas fa-user-astronaut"></i>
                             <h3>Avatar Personalities</h3>
                             <p className="text-muted">
                               We have added avatars and user names to represent
@@ -463,7 +467,7 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-save"></i>
+                            <i className="fas fa-save"></i>
                             <h3>Saved Chores/Quick Buttons</h3>
                             <p className="text-muted">
                               We have made things easier and quicker with quick
@@ -505,7 +509,7 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-user-clock"></i>
+                            <i className="fas fa-user-clock"></i>
                             <h3>Free Time Banking</h3>
                             <p className="text-muted">
                               Penny bank introduces the concept of time banking.
@@ -547,7 +551,7 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fab fa-creative-commons-nc"></i>
+                            <i className="fab fa-creative-commons-nc"></i>
                             <h3>Debt Discipline</h3>
                             <p className="text-muted">
                               One unique feature is the ability to take away
@@ -593,7 +597,7 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-hourglass-half"></i>
+                            <i className="fas fa-hourglass-half"></i>
                             <h3>Punctuality Score</h3>
                             <p className="text-muted">
                               In order to aid in teaching kids about time
@@ -622,7 +626,7 @@ class IndexPage extends Component {
                           <img
                             src={mockup8}
                             className="img-fluid"
-                            alt="Picture Verification"
+                            alt="Pic Verification"
                           />
                         </div>
                         <div className="button"></div>
@@ -635,7 +639,7 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-camera-retro"></i>
+                            <i className="fas fa-camera-retro"></i>
                             <h3>Picture Verification</h3>
                             <p className="text-muted">
                               You can request your child send a picture of their
@@ -675,7 +679,7 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-handshake"></i>
+                            <i className="fas fa-handshake"></i>
                             <h3>Chore Offers</h3>
                             <p className="text-muted">
                               Penny bank gives kids the power of decision making
@@ -719,7 +723,7 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-money-bill-wave"></i>
+                            <i className="fas fa-money-bill-wave"></i>
                             <h3>Withdrawal Requests</h3>
                             <p className="text-muted">
                               Manage how your child's requests for cash and free
@@ -761,7 +765,7 @@ class IndexPage extends Component {
                       <div className="row" style={{ margin: 5 }}>
                         <div className="col-lg-6">
                           <div className="feature-item">
-                            <i class="fas fa-heart"></i>
+                            <i className="fas fa-heart"></i>
                             <h3>Love Tap</h3>
                             <p className="text-muted">
                               This is a fun feature that both parent and child
@@ -793,6 +797,7 @@ class IndexPage extends Component {
                     src={require("../assets/images/close-up-portrait-attractive-young-woman-isolated.jpg")}
                     style={{ borderRadius: 10, marginBottom: 20 }}
                     className="image"
+                    alt="FAQ"
                   />
                 </div>
                 <div className="col-lg-7 my-auto">
@@ -801,7 +806,7 @@ class IndexPage extends Component {
                     <br />
                     <button
                       type="button"
-                      class="btn btn-info"
+                      className="btn btn-info"
                       onClick={() => navigate("/faq")}
                     >
                       Learn More
