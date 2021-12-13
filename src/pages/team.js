@@ -5,6 +5,7 @@ import HeaderLite from "../components/HeaderLite";
 import Footer from "../components/Footer";
 import YouTube from "react-youtube";
 import Avatar from "react-avatar";
+import "/node_modules/bootstrap-avatar/dist/avatar.css";
 
 class Team extends Component {
   render() {
@@ -47,52 +48,52 @@ class Team extends Component {
                 alignItems: "center",
               }}
             >
-              <Avatar
+              <img
                 src={require("../assets/images/BoyAvatar_36.png")}
                 round={10}
                 size={175}
-                style={{ backgroundColor: "#20B2AA", margin: 3 }}
-                className="image"
+                style={{ backgroundColor: "#E2BE6F", margin: 3 }}
+                className="image avatar avatar-128 rounded-circle"
                 alt="Avatar"
               />
-              <Avatar
+              <img
                 src={require("../assets/images/Ryan.png")}
                 round={10}
                 size={175}
-                style={{ backgroundColor: "#20B2AA", margin: 3 }}
-                className="image"
+                style={{ backgroundColor: "#92B898", margin: 3 }}
+                className="image avatar avatar-128 rounded-circle"
                 alt="Avatar"
               />
-              <Avatar
+              <img
                 src={require("../assets/images/Jamie.png")}
                 round={10}
                 size={175}
-                style={{ backgroundColor: "#F8EB76", margin: 3 }}
-                className="image"
+                style={{ backgroundColor: "#FF95C9", margin: 3 }}
+                className="image avatar avatar-128 rounded-circle"
                 alt="Avatar"
               />
-              <Avatar
+              <img
                 src={require("../assets/images/GirlAvatar_40.png")}
                 round={10}
                 size={175}
-                style={{ backgroundColor: "#F8EB76", margin: 3 }}
-                className="image"
+                style={{ backgroundColor: "#AAC5C9", margin: 3 }}
+                className="image avatar avatar-128 rounded-circle"
                 alt="Avatar"
               />
-              <Avatar
+              <img
                 src={require("../assets/images/Julius.png")}
                 round={10}
                 size={175}
                 style={{ backgroundColor: "#20B2AA", margin: 3 }}
-                className="image"
+                className="image avatar avatar-128 rounded-circle"
                 alt="Avatar"
               />
-              <Avatar
+              <img
                 src={require("../assets/images/Nik.png")}
                 round={10}
                 size={175}
-                style={{ backgroundColor: "#F8EB76", margin: 3 }}
-                className="image"
+                style={{ backgroundColor: "#D96E28", margin: 3 }}
+                className="image avatar avatar-128 rounded-circle"
                 alt="Avatar"
               />
             </div>
@@ -152,7 +153,7 @@ class Team extends Component {
               <hr />
               <YouTube
                 videoId="ZmAlpwgrbfE"
-                opts={{ width: "97%", height: "490" }}
+                opts={{ width: "100%", height: "490" }}
               />
               <p className="text-muted">
                 Penny Bank's story told at the initial launch Keynote.

@@ -103,7 +103,7 @@ class IndexPage extends Component {
                 <img
                   src={require("../assets/images/animation_500_kwrvs0ng.gif")}
                   className="img-fluid"
-                  alt="Dashboard"
+                  alt="Question"
                   style={{ height: 200, width: 200 }}
                 />
                 <p className="text-muted">

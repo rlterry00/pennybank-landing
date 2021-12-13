@@ -27,9 +27,6 @@ class LeaderboardPage extends Component {
             <div className="overlay"></div>
           </section>
           {/* </header> */}
-          <div style={{ margin: 20 }}>
-            <Leaderboards />
-          </div>
 
           <section id="intro">
             <div className="container h-100">
@@ -40,11 +37,12 @@ class LeaderboardPage extends Component {
                   </h1>
                   <p className="mb-5">
                     We have gamified Penny Bank Plus so children can share their
-                    achievements, badges and scores in the Penny Bank Universe
-                    with their peers. Parents we know you are a great motivator
-                    but peer influence is powerful as they level up with their
-                    friends. Penny Bank removes the bore out of chores with our
-                    XP scores! #Bars
+                    achievements, badges and XP scores in the Penny Bank
+                    Universe with their peers. What does XP stand for? It stands
+                    for experience. Parents we know you are a great motivator
+                    but peer influence hsd proven to be just as effective as
+                    they level up with their friends. Penny Bank removes the
+                    bore out of chores with our XP scores! #Bars
                   </p>
                 </div>
                 <div className="col-lg-7 my-auto">
@@ -87,12 +85,46 @@ class LeaderboardPage extends Component {
             </div>
           </section>
           <div className="section-heading text-center" style={{ margin: 30 }}>
+            <img
+              src={require("../assets/images/animation_500_kx4kum6r.gif")}
+              className="img-fluid"
+              alt="Trophy"
+              style={{ height: 300, width: 300 }}
+            />
             <h2 style={{ color: "black" }}>XP Leaderboards</h2>
 
             <hr />
-            
+            <p className="text-muted">
+              How is XP scored? XP is based off completed chores. Each completed
+              chore is worth 5 XP points. Each time your child offers to do a
+              chore through chore offers and your accept it they get an
+              additional 5 XP points. The max daily XP points any child can
+              aquire is 50.
+            </p>
           </div>
-
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "space-evenly",
+              margin: 20,
+            }}
+          >
+            <p>
+              <u>Rank</u>
+            </p>
+            <p>
+              <u>Avatar</u>
+            </p>
+            <p>
+              <u>Username</u>
+            </p>
+            <p>
+              <u>XP Score</u>
+            </p>
+          </div>
+          <Leaderboards />
           <Footer />
         </Layout>
       </React.Fragment>
