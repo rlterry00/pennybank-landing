@@ -5,7 +5,7 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/rlterry/Desktop/pennybank-landing/.cache/dev-404-page.js"))),
+  "component---node-modules-gatsby-plugin-offline-app-shell-js": hot(preferDefault(require("/Users/rlterry/Desktop/pennybank-landing/node_modules/gatsby-plugin-offline/app-shell.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/rlterry/Desktop/pennybank-landing/src/pages/404.js"))),
   "component---src-pages-affiliates-js": hot(preferDefault(require("/Users/rlterry/Desktop/pennybank-landing/src/pages/affiliates.js"))),
   "component---src-pages-faq-js": hot(preferDefault(require("/Users/rlterry/Desktop/pennybank-landing/src/pages/faq.js"))),

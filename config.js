@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: "Penny Bank", // <title>
+  siteTitle: "Penny Bank Plus", // <title>
   manifestName: "Penny Bank",
   manifestShortName: "Landing", // max 12 characters
   manifestStartUrl: "/",

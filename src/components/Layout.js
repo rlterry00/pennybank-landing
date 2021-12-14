@@ -27,7 +27,7 @@ class Layout extends Component {
                 {
                   name: "description",
                   content:
-                    "Good habits start today. Putting the power of responsibility and decision making in your child's hands!",
+                    "Good habits start today. Penny Bank Plus the ultimate rewards system that teaches your child habit making, time management and financial literacy.",
                 },
                 { name: "keywords", content: "site, web, app, mobile" },
               ]}
@@ -36,14 +36,14 @@ class Layout extends Component {
               {/* <!-- Open Graph / Facebook --> */}
               <meta property="og:type" content="website" />
               <meta property="og:url" content="https://pennybank.online/" />
-              <meta property="og:title" content="Penny Bank" />
+              <meta property="og:title" content="Penny Bank Plus" />
               <meta
                 property="og:description"
                 content="Good habits start today. Penny Bank Plus the ultimate rewards system that teaches your child habit making, time management and financial literacy."
               />
               <meta
                 property="og:image"
-                content="https://www.pennybank.online/static/splash_reflective-969e302b60df4f6a6b26c3ab7e564bdd.png"
+                content="https://www.pennybank.online/static/she-is-it-consultant-dad-parenthood-childhood-lovely-father-cute-kid-daughter-teaches-father-how-use-smartphone-child-dad-best-friends-having-fun-with-cheerful-father-3d0a42b9a36a7183deed5472f6ac826d.jpg"
               />
               {/* <!-- Twitter --> */}
               <meta property="twitter:card" content="summary_large_image" />
@@ -51,14 +51,14 @@ class Layout extends Component {
                 property="twitter:url"
                 content="https://pennybank.online/"
               />
-              <meta property="twitter:title" content="Penny Bank" />
+              <meta property="twitter:title" content="Penny Bank Plus" />
               <meta
                 property="twitter:description"
-                content="Putting the power of finance, responsibility and decision making in your child's hands!"
+                content="Good habits start today. Penny Bank Plus the ultimate rewards system that teaches your child habit making, time management and financial literacy."
               />
               <meta
                 property="twitter:image"
-                content="https://www.pennybank.online/static/splash_reflective-969e302b60df4f6a6b26c3ab7e564bdd.png"
+                content="https://www.pennybank.online/static/she-is-it-consultant-dad-parenthood-childhood-lovely-father-cute-kid-daughter-teaches-father-how-use-smartphone-child-dad-best-friends-having-fun-with-cheerful-father-3d0a42b9a36a7183deed5472f6ac826d.jpg"
               />
             </Helmet>
             <div className={"page-top"}>{children}</div>
