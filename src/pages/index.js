@@ -202,13 +202,22 @@ class IndexPage extends Component {
                     Developed By Real People and Parents
                   </h2>
 
-                  <div className="badges">
-                    <img
-                      src={require("../assets/images/animation_500_kw6k80pw.gif")}
-                      className="lottie"
-                      style={{ marginTop: -100, marginBottom: -100 }}
-                      alt="Question"
-                    />
+                  <div className="badges section-heading">
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      <img
+                        src={require("../assets/images/animation_500_kw6k80pw.gif")}
+                        className="lottie image"
+                        style={{ marginTop: -100, marginBottom: -100 }}
+                        alt="Question"
+                      />
+                    </div>
                     <p style={{ color: "white" }}>
                       We would love to hear your feedback!
                     </p>

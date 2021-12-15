@@ -17,7 +17,11 @@ class Affiliates extends Component {
               content:
                 "Affilates who partner with Penny Bank Plus to provide exclusive value for active users.",
             },
-            { name: "keywords", content: "site, web, app, mobile, affiliates, partnership, collaboration, business, coupon, discount" },
+            {
+              name: "keywords",
+              content:
+                "site, web, app, mobile, affiliates, partnership, collaboration, business, coupon, discount",
+            },
           ]}
         >
           <html lang="en" />
@@ -103,7 +107,53 @@ class Affiliates extends Component {
             </div>
           </div>
         </section>
+        <div className="section-heading text-center" style={{ margin: 30 }}>
+          <h2 style={{ color: "black" }}>Partners and Brand Collaborators</h2>
 
+          <hr />
+        </div>
+        <section id="intro">
+          <div className="container h-100">
+            <div className="row h-100">
+              <div className="col-lg-5 my-auto">
+                <h1>Prosperity's Kitchen</h1>
+                <h3>Charlotte, North Carolina</h3>
+                <a
+                  className="navbar-brand"
+                  href="https://www.prosperityskitchenllc.com"
+                >
+                  <h5 className="mb-5">
+                    https://www.prosperityskitchenllc.com
+                  </h5>
+                </a>
+                <img
+                  src={require("../assets/images/prosperitykitchen.jpg")}
+                  style={{ borderRadius: 10, marginBottom: 20 }}
+                  className="image"
+                  alt="Affiliates"
+                />
+              </div>
+              <div className="col-lg-7 my-auto">
+                <div className="header-content mx-auto">
+                  <p className="mb-5">
+                    Their food prep services meet the needs of individuals as
+                    well as families that are seeking healthy alternatives to
+                    soul food, trainers and people in training prepping for
+                    weight management. They meet the needs of those with events
+                    needing to be catered, such as meetings, weddings, and all
+                    special occasion events. Penny Bank recommends them for
+                    catering for events for your kids as well. Penny Bank Plus
+                    members get a free gift with their first order with coupon
+                    code.
+                    <br /> *Coupon code accessable in the Penny Bank Plus mobile
+                    app.
+                  </p>
+                </div>
+                <div className="badges"></div>
+              </div>
+            </div>
+          </div>
+        </section>
         <div className="section-heading text-center" style={{ margin: 30 }}>
           <h2 style={{ color: "black" }}>Looking to Partner?</h2>
 
