@@ -3,6 +3,10 @@ import HeaderLite from "../components/HeaderLite";
 import Footer from "../components/Footer";
 import Leaderboards from "../components/Leaderboards";
 import Helmet from "react-helmet";
+import "/src/assets/sass/leaderboards.scss";
+import "/src/assets/sass/_global.scss"
+import "/src/assets/sass/_mixins.scss";
+
 
 class LeaderboardPage extends Component {
   render() {
@@ -16,7 +20,11 @@ class LeaderboardPage extends Component {
               content:
                 "Top rankings in Penny Bank Plus. Download in the App Store and Google Play to let your kids level up.",
             },
-            { name: "keywords", content: "site, web, app, mobile, game, leaderboard, score, points, awards, achievements, badges" },
+            {
+              name: "keywords",
+              content:
+                "site, web, app, mobile, game, leaderboard, score, points, awards, achievements, badges",
+            },
           ]}
         >
           <html lang="en" />
@@ -168,7 +176,7 @@ class LeaderboardPage extends Component {
             <u>XP Score</u>
           </p>
         </div>
-        <Leaderboards />
+        {/* <Leaderboards /> */}
         <Footer />
       </React.Fragment>
     );

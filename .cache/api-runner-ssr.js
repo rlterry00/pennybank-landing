@@ -9,7 +9,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/rlterry/Desktop/pennybank-landing/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Penny Bank","short_name":"Landing","start_url":"/pennybank-landing/","background_color":"#F6E775","theme_color":"#F6E775","display":"standalone","icon":"src/assets/images/Pennybank_logo_Fill.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"6e701b26cb9720b61dea04e7e989afa4"},
+      options: {"plugins":[],"name":"Penny Bank","short_name":"Landing","start_url":"/pennybank-landing/","background_color":"#F6E775","theme_color":"#F6E775","display":"standalone","icon":"src/assets/images/pennybankplus.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"98e60fec869fc69943c2d2032aea8d98"},
     },{
       plugin: require('/Users/rlterry/Desktop/pennybank-landing/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},

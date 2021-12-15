@@ -1,4 +1,13 @@
 // Styling for the call to action section
+@mixin background-cover() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@mixin body-font {
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
 section.leaderboards {
   position: relative;
   text-align: center;

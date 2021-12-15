@@ -1,4 +1,21 @@
 // Global styling for this template
+@mixin body-font {
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+$theme-primary:   #20B2AA;
+$gray-base:        #000;
+$gray-darker:      lighten($gray-base, 13.5%);
+
+@mixin transition-all() {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+@mixin heading-font {
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
 html,
 body {
     width: 100%;
@@ -55,6 +72,11 @@ section {
     box-shadow: 5px 10px white;
 }
 
+.avatar-image {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    max-width: 100%; 
+}
+
 .image {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     max-width: 100%; 
@@ -68,8 +90,3 @@ section {
     height: auto;
 }
 
-.lottie {
-   
-    max-width: 100%; 
-    height: auto;
-}

@@ -91,50 +91,38 @@ class Team extends Component {
           >
             <img
               src={require("../assets/images/BoyAvatar_36.png")}
-              round={10}
-              size={175}
               style={{ backgroundColor: "#E2BE6F", margin: 3 }}
-              className="image avatar avatar-128 rounded-circle"
+              className="avatar-image avatar avatar-128 rounded-circle"
               alt="Avatar"
             />
             <img
               src={require("../assets/images/Ryan.png")}
-              round={10}
-              size={175}
               style={{ backgroundColor: "#92B898", margin: 3 }}
-              className="image avatar avatar-128 rounded-circle"
+              className="avatar-image avatar avatar-128 rounded-circle"
               alt="Avatar"
             />
             <img
               src={require("../assets/images/Jamie.png")}
-              round={10}
-              size={175}
               style={{ backgroundColor: "#FF95C9", margin: 3 }}
-              className="image avatar avatar-128 rounded-circle"
+              className="avatar-image avatar avatar-128 rounded-circle"
               alt="Avatar"
             />
             <img
               src={require("../assets/images/GirlAvatar_40.png")}
-              round={10}
-              size={175}
               style={{ backgroundColor: "#AAC5C9", margin: 3 }}
-              className="image avatar avatar-128 rounded-circle"
+              className="avatar-image avatar avatar-128 rounded-circle"
               alt="Avatar"
             />
             <img
               src={require("../assets/images/Julius.png")}
-              round={10}
-              size={175}
               style={{ backgroundColor: "#20B2AA", margin: 3 }}
-              className="image avatar avatar-128 rounded-circle"
+              className="avatar-image avatar avatar-128 rounded-circle"
               alt="Avatar"
             />
             <img
               src={require("../assets/images/Nik.png")}
-              round={10}
-              size={175}
               style={{ backgroundColor: "#D96E28", margin: 3 }}
-              className="image avatar avatar-128 rounded-circle"
+              className="avatar-image avatar avatar-128 rounded-circle"
               alt="Avatar"
             />
           </div>

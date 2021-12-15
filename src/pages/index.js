@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import Axios from "axios";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Footer from "../components/Footer";

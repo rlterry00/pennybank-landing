@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: "#F6E775",
   manifestThemeColor: "#F6E775",
   manifestDisplay: "standalone",
-  manifestIcon: "src/assets/images/Pennybank_logo_Fill.png",
+  manifestIcon: "src/assets/images/pennybankplus.png",
   pathPrefix: `/pennybank-landing/`, // This path is subpath of your hosting https://domain/portfolio
   // social
   socialLinks: [
