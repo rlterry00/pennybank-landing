@@ -30,6 +30,24 @@ export default function FAQShort() {
           services and is limited on features.
         </p>
       </AccordionItem>
+      <AccordionItem title="I signed up/have an account why does it say “Penny Bank Plus not active”?">
+        <p style={{ margin: 10 }}>
+          Once you have an account in order to use the mobile app you must
+          subscribe to being a Penny Bank Plus member. You can go to the get
+          started button in the mobile app and it will take you to account
+          management or visit the account page in the header. You will then log
+          in and are your options for Penny Bank Plus will be available. After
+          you are subscribed you can sign back into the mobile app with your
+          normal credentials.
+        </p>
+      </AccordionItem>
+      <AccordionItem title="I already have a Penny Bank account why isn’t my log in working?">
+        <p style={{ margin: 10 }}>
+          Your account still exists from the original Penny Bank. We ask all of
+          our legacy users to reset their passwords as this build required us to
+          migrate to a new backend
+        </p>
+      </AccordionItem>
     </Accordion>
   );
 }

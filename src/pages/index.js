@@ -10,7 +10,7 @@ import FAQShort from "../components/FAQShort";
 import { navigate } from "gatsby";
 
 import apple from "../assets/images/app-store-badge.svg";
-// import google from "../assets/images/google-play-badge.svg";
+import google from "../assets/images/google-play-badge.svg";
 import mockup from "../assets/images/IMG_3901.png";
 import mockup1 from "../assets/images/IMG_4046.png";
 import mockup2 from "../assets/images/IMG_4056.png";
@@ -30,7 +30,6 @@ class IndexPage extends Component {
     xpData: {},
   };
 
-  
   render() {
     return (
       <React.Fragment>
@@ -46,18 +45,36 @@ class IndexPage extends Component {
                   <br />
                   With Penny Bank Plus
                 </h2>
-                {/* <Scroll type="id" element="download"> */}
-                <a
-                  className="badge-link"
-                  href="https://apps.apple.com/us/app/penny-bank-plus/id1522754902"
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                    justifyContent: "space-evenly",
+                  }}
                 >
-                  <img
-                    src={apple}
-                    alt="Apple"
-                    style={{ height: 250, width: 250 }}
-                  />
-                </a>
-                {/* </Scroll> */}
+                  <a
+                    className="badge-link"
+                    href="https://apps.apple.com/us/app/penny-bank-plus/id1522754902"
+                  >
+                    <img
+                      src={apple}
+                      alt="Apple"
+                      style={{ height: 175, width: 175, marginRight: 5 }}
+                    />
+                  </a>
+                  <a
+                    className="badge-link"
+                    href="https://play.google.com/store/apps/details?id=online.pennybank.pennybankplus2"
+                  >
+                    <img
+                      src={google}
+                      alt="Google"
+                      style={{ height:175, width: 175 }}
+                    />
+                  </a>
+                </div>
+                
               </div>
             </div>
             <div className="overlay"></div>
