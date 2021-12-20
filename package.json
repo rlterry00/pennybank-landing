@@ -42,6 +42,7 @@
     "react-responsive-carousel": "^3.2.9",
     "react-scrollspy": "^3.4.0",
     "react-youtube": "^7.13.1",
+    "regenerator-runtime": "^0.13.9",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
@@ -54,6 +55,7 @@
     "test": "jest"
   },
   "devDependencies": {
+    "babel-preset-gatsby": "^0.12.3",
     "gh-pages": "^2.0.1",
     "jest": "^27.4.4",
     "prettier": "^1.17.0",

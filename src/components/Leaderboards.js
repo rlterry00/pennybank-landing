@@ -1,5 +1,5 @@
+import "regenerator-runtime/runtime";
 import React, { Component } from "react";
-
 import Axios from "axios";
 
 class Leaderboards extends Component {
@@ -12,7 +12,7 @@ class Leaderboards extends Component {
   async componentDidMount() {
     Axios.get("https://api.pennybankapi.online/api/Children/topXpEarners/10")
       .then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         this.setState({ users: response.data });
       })
       .catch((err) => {
@@ -29,20 +29,20 @@ class Leaderboards extends Component {
             alignItems: "center",
             justifyContent: "space-evenly",
             padding: 10,
-            backgroundColor: index%2 == 0 ? "gainsboro" : "white"
+            backgroundColor: index % 2 === 0 ? "gainsboro" : "white",
           }}
-          key={users.id}
+          key={index}
         >
           <h3>{String(index + 1)}.</h3>
           <img
             src={
-              users.avatar.avatarLink
-                ? users.avatar.avatarLink
+              users.avatarLink
+                ? users.avatarLink
                 : require("../assets/images/pennybankplusicon.png")
             }
             style={{
-              backgroundColor: users.avatar.avatarColor
-                ? users.avatar.avatarColor
+              backgroundColor: users.avatarColor
+                ? users.avatarColor
                 : "#20B2AA",
               margin: 3,
             }}
@@ -50,7 +50,7 @@ class Leaderboards extends Component {
             alt="Avatar"
           />
           <p>{users.username}</p>
-          <h2>{String(users.gameAccount.xpScore)}</h2>
+          <h2>{String(users.xpScore)}</h2>
         </div>
       );
     });

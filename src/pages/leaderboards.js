@@ -176,7 +176,7 @@ class LeaderboardPage extends Component {
             <u>XP Score</u>
           </p>
         </div>
-        {/* <Leaderboards /> */}
+        <Leaderboards />
         <Footer />
       </React.Fragment>
     );
